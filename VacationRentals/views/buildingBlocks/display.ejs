@@ -1,0 +1,75 @@
+<script>
+  function displayResult(str) {
+    if (str.length == 0) {
+      document.getElementById("searchSuggestions").innerHTML = "";
+      document.getElementById("searchSuggestions").style.border = "0px";
+      return;
+    }
+    if (window.XMLHttpRequest) {
+      xmlhttp = new XMLHttpRequest();
+    }
+    else {
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        document.getElementById("searchSuggestions").innerHTML = buildResponse(xmlhttp.responseText);
+        document.getElementById("searchSuggestions").style.border = "1px solid #A5ACB2";
+      }
+    }
+    xmlhttp.open("GET", "searchSuggest?q=" + str, true);
+    xmlhttp.send();
+  }
+
+  function buildResponse(dataJson) {
+    var dataObj = JSON.parse(dataJson);
+    var returnStr = '<div class="g05-search">\n'
+      + '<div class="container">\n'
+      + '<div class="row">\n';
+    dataObj.forEach(function (item) {
+      var tmp = '<div class="span4">'
+        + ' <div class="g05-search-well">\n'
+        + '   <article>\n'
+        + '     <p><a href="' + '/habitations/' + item.id + '"><img src="/images/habitations/' + item.id + '/thumbnails/featured.jpg" width="85px" style="position: relative; float: left; margin: 0 0.5em 0.5em" class="img-rounded" /></a></p>\n'
+        + '     <p class="lead" style="position:relative; top:0.1em"><a href="' + '/search?location=' + item.location.local + '">' + item.location.local + '</a></p>\n'
+        + '     <p style="position:relative; top:-0.6em"><a href="' + '/habitations/' + item.id + '"><strong>' + item.name + '</strong></a></p>\n'
+        + '     <p class="g05-search-chars"><a href="' + '/search?weeklyFee=' + item.weeklyFee.toFixed(0) + '">Fare: ' + item.weeklyFee.toFixed(2) + ' €/week</a></p>\n'
+        + '     <p class="g05-search-chars"><a href="' + '/search?area=' + item.characteristics.area.toFixed(0) + '">Area: ' + item.characteristics.area.toFixed(0) + ' m<sup>2</sup></a></p>\n'
+        + '     <p class="g05-search-chars"><a href="' + '/search?capacity=' + item.characteristics.capacity.toFixed(0) + '">Capacity: ' + item.characteristics.capacity.toFixed(0) + ' persons</a></p>\n'
+        + '     <p class="g05-search-chars"><a href="' + '/search?bedrooms=' + item.characteristics.bedrooms.toFixed(0) + '">Bedrooms: ' + item.characteristics.bedrooms.toFixed(0) + '</a></p>\n'
+        + '     <p class="g05-search-smry">' + item.summary + '</p>\n'
+        + '   </article>\n'
+        + ' </div>';
+      +' <div class="span8">'
+      + ' </div>';
+      +'</div>';
+      returnStr += tmp;
+    });
+    returnStr += '</div>'
+      + '</div>'
+      + '</div>';
+    return returnStr;
+  }
+</script>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12'>
+      <% var start = itemsPage * (page - 1); %>
+      <% for (var item = start; item < start + itemsPage && item < data.length; item++) { %>
+      <article class="panel panel-default">
+        <div class="panel-heading">
+          <a href="/habitation/<%= data[item].id %>"><h3 class="panel-title"><%= data[item].name %>
+              / <%= data[item].location.local %></h3></a>
+        </div>
+        <div class="panel-body">
+          <p><a href="/habitation/<%= data[item].id %>"><img
+                src="/images/habitations/<%= data[item].id %>/thumbnails/<%= data[item].photos.featuredPhoto %>"
+                height="80px" class="img-rounded" style="float:left; margin-right:12px"/></a><%= data[item].summary %>
+          </p>
+        </div>
+      </article>
+      <% }; %>
+    </div>
+  </div>
+</div>

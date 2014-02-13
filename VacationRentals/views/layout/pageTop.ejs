@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title><%= typeof title != 'undefined' ? title : 'vacaRent' %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="vacaRent - vacations habitations to rent">
+  <meta name="author" content="<%= typeof author != 'undefined' ? author : 'LI51N - G05 (ABS + CM + TB)' %>">
+
+  <link rel="stylesheet" href="<%= typeof bootstrap != 'undefined' ? bootstrap : '/css/bootstrap.min.css' %>"/>
+  <link rel="stylesheet" href="<%= typeof stylesheet != 'undefined' ? stylesheet : '/stylesheets/style.css' %>"/>
+
+  <style type="text/css">
+    body {
+      padding-top: 51px;
+      padding-bottom: 40px;
+    }
+  </style>
+
+  <style type="text/css">
+    body {
+      background-image: url("/images/background/swelling-cumulus_grey_1920x1280.jpg");
+      background-repeat: no-repeat;
+      background-color: #F0F0F0;
+    }
+  </style>
+
+  <style type="text/css">
+    .pointer:hover {
+      cursor: pointer;
+    }
+  </style>
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <% var logoSource = typeof logoPath != 'undefined' ? logoPath : '/images/logo/'; %>
+  <% logoSource += typeof logo != 'undefined' ? logo : 'vacaIcon'; %>
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= logoSource %>_144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= logoSource %>_114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= logoSource %>_72.png">
+  <link rel="apple-touch-icon-precomposed" href="<%= logoSource %>_57.png">
+  <link rel="shortcut icon" href="<%= logoSource %>.ico">
+
+</head>
+<body>
+
+<% include mainMenu %>
+<!--
+<div class="container">
+-->
+<!--
+  <div class="row" style="margin-bottom: 1em">
+-->
+<% if (!locals.hideSearch) { %>
+<p>
+  <% include ../buildingBlocks/search %>
+</p>
+<% } %>
+<!--
+  </div>
+-->

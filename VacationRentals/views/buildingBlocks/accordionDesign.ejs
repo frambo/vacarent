@@ -1,0 +1,20 @@
+<div class="panel-group" id="accordionDesign">
+  <% for (var i = 0; i < design.length; i++) { %>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordionDesign" href="#collapseDesData<%= i %>">
+          <%= design[i].header %>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseDesData<%= i %>" class="panel-collapse collapse <%= i == 0 ? 'in' : '' %>">
+      <div class="panel-body">
+        <% design[i].body.forEach(function(paragraph) { %>
+        <%- paragraph %>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+  <% } %>
+</div>

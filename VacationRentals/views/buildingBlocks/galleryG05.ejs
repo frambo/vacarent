@@ -1,0 +1,44 @@
+<script type="text/javascript">
+  var current = null;
+  window.onload = function () {
+    var galleryImgs = document.getElementsByClassName('gallery-image');
+    current = galleryImgs[0];
+    for (var i = 1; i < galleryImgs.length; i++)
+      hide(galleryImgs[i]);
+  }
+  function hide(target) {
+    target.setAttribute("style", "display: none");
+  }
+  function show(target) {
+    target.setAttribute("style", "display: block");
+  }
+  function present(targetToShow) {
+    var target = document.getElementById(targetToShow);
+    hide(current);
+    show(target);
+    current = target;
+  }
+</script>
+
+<style>
+  .gallery-images {
+    margin-bottom: 2px;
+    display: block;
+  }
+
+  .gallery-image-visible {
+    display: block;
+  }
+
+  .gallery-image-hidden {
+    display: none;
+  }
+
+  .gallery-thumbnails {
+    display: inline
+  }
+
+  .gallery-thumbnails:hover {
+    cursor: pointer
+  }
+</style>

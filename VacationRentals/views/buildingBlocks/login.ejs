@@ -1,0 +1,28 @@
+<div class="navbar-right">
+  <div class="btn-group" style="margin-right:0.5em">
+
+    <% if(typeof logged == "undefined") { %>
+      <a class="btn navbar-btn btn-default" href="/signin"><span class="glyphicon glyphicon-log-in"></span><span
+          class="sr-only">Sign in</span></a>
+      <a class="btn navbar-btn btn-primary" href="/register"><span class="glyphicon glyphicon-user"></span><span
+          class="sr-only">Register</span></a>
+      <% } else { %>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">My... <b class="caret"></b></a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">reservations</a></li>
+            <li class="divider"></li>
+            <li><a href="/myHabs">habitations</a></li>
+            <li><a href="/habitation/add"><span class="glyphicon glyphicon-book"></span> Add Habitation</a></li>
+          </ul>
+        </li>
+        <li><img src="<%= gravatar.url(logged.username, {s: 50, r: 'g', d: 'mm'}) %>"/>
+        </li>
+        <li><a href="/signout"><span class="glyphicon glyphicon-log-out"></span><span class="sr-only">Sign out</span></a>
+        </li>
+      </ul>
+    <% } %>
+
+  </div>
+</div>

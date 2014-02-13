@@ -1,0 +1,1242 @@
+{
+  "data": [
+    {
+      "owner": 1,
+      "id": 1,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-109.htm",
+      "name": "Casa Agatha",
+      "summary": "Holiday rental 3 bedroom villa with swimming pool in Cama da Vaca, near beaches and golf courses - Praia da Luz - Algarve - Portugal",
+      "description": "This lovely 3 bedroom villa located in an urbanization called Cama da Vaca which lies between Praia da Luz and Burgau on the coastline was newly decorated this year. As you come in to the villa you will find the living room to the right with dining room and access to kitchen. To the left you will find the 3 bedrooms. There are 2 full bathrooms of which 1 e-suite with Jacuzzi bath. There is plenty of lawn area around the swimming pool and the whole property is fenced in offering privacy and security. The pool can be heated at request and for the winter months there is central heating.",
+      "imagesSource": "flickr",
+      "flickr": {
+        "parts": {
+          "urlbase": "http://farm4.staticflickr.com/",
+          "image": "_z.jpg",
+          "thumbnail": "_t.jpg"
+        },
+        "featuredPhoto": "3826/12432620725_69c89bd87c",
+        "album": [
+          "3826/12432620725_69c89bd87c",
+          "7334/12432769973_5b2dc3d63c",
+          "3720/12432621085_fe76a0f376",
+          "3670/12433105044_d942a5c30a",
+          "5547/12432620855_89d03976f9",
+          "2857/12432621355_91a1d53da1",
+          "3790/12432770333_ef02eda296",
+          "3725/12432621625_377935d681",
+          "3729/12432621795_93795db179"
+        ]
+      },
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
+      },
+      "weeklyFee": 770,
+      "location": {
+        "local": "Algarve, Praia do Burgau",
+        "gps": {
+          "latitude": "37.09024",
+          "longitude": "-8.795414"
+        }
+      },
+      "characteristics": {
+        "capacity": 6,
+        "area": 150,
+        "rooms": 6,
+        "bedrooms": 3,
+        "amenities": "Outside shower, Gas Hob, TV Satelitte, BBQ, Jacuzzi, Stereo, Car parking, Dryer, Washing machine, Dishwasher, Coffee Machine, Fruit Press, Oven, Fireplace, Central heating",
+        "availableExtras": "Push buggy, Car hire quote, Food pack for 3-4 people, High chair, Food pack for 5-6 people, Taxi transfer quote, Cot, Foodpack for 8-9 people, Pool heating",
+        "permissions": "No Pets"
+      },
+      "comments": [
+        {
+          "points": 0,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "owner": 3,
+      "id": 2,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-209.htm",
+      "name": "Casa Prince",
+      "summary": "Casa Prince is a very nice holiday rental villa that offers comfortable accomodation for 6 people. Built on a plot with 2725m², with a big private pool, terrace, lawns and BBQ. Easy access to golf courses, Horse riding facilities, beaches and towns of Lagos, Portimão e Alvor ",
+      "description": "Casa Prince is a very nice villa that offers comfortable accomodation for 6 people. Built on a plot with 5000m2, with a big private pool, terrace and BBQ. Located in a residential area of Serra e Mar, 10 km away from the beautiful beaches of Alvor and with easy access to 6 international Golf courses. The villa has 3 bedrooms and 3 bathrooms with shower and toilet and a guest toilet in the hallway. The spacious living room (80m2) gives us access, through sliding doors, to the terrace and swimming pool area. This room is equiped with Air-Conditioned, to help you endure the summer's hot weather. It is also equiped with a phone and satelite TV. Also, all the other house divisions are equipped with all the necessary equipment and facilities. In order to provide our guests a comfortable stay, we have at your disposal a washing machine, a large fridge with freezer, bedlinen, maid service twice a week and pool cleaning service once a week. In the terrace and pool area, once can find an exterior shower, gas operated BBQ and a roof terrace for the die-hard tanners. As extras, this villa has satellite TV and Radio and a sauna. In the area, one can find several sports facilities, such as Golf courses, diving activities, walking, waterparks, fishing, jeep safaris, horse rising and much more. The rental price includes gas, water and electricity expenses, twice a week maid service and once per week pool cleaning service. Internet available!",
+      "imagesSource": "flickr",
+      "flickr": {
+        "parts": {
+          "urlbase": "http://farm6.staticflickr.com/",
+          "image": "_z.jpg",
+          "thumbnail": "_t.jpg"
+        },
+        "featuredPhoto": "5507/12440585333_928c330d17",
+        "album": [
+          "3789/12440447875_05bde8e068",
+          "3831/12440584363_69859f072a",
+          "7290/12440584283_fa897fd518",
+          "7327/12440447045_2e10403c90",
+          "5530/12440584843_0861f7c945",
+          "3806/12440583963_defe7cca0f",
+          "3794/12440925324_0933f14956",
+          "5474/12440447665_6290f32aa1",
+          "7362/12440926034_ab2c6d3aac",
+          "5541/12440925154_5684ff6d06",
+          "3745/12440583753_c5c6f9f158",
+          "3692/12440583613_0c2277c2e0"
+        ]
+      },
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg"]
+      },
+      "weeklyFee": 570,
+      "location": {
+        "local": "Algarve, Praia do Burgau",
+        "gps": {
+          "latitude": "37.184177",
+          "longitude": "-8.57042"
+        }
+      },
+      "characteristics": {
+        "capacity": 6,
+        "area": 250,
+        "rooms": 6,
+        "bedrooms": 3,
+        "amenities": "Wi Fi Internet, Outside shower, Sauna, Gas Hob, TV Satelitte (Dutch), TV (Portuguese), BBQ, Stereo, Car parking, Washing machine, Dishwasher, Coffee Machine, Fruit Press, Kettle, Microwave, Oven, Fireplace, Airco / Heating, Fridge / Freezer",
+        "availableExtras": "Push buggy, Car hire quote, Food pack for 1-2 people, Food pack for 3-4 people, High chair, Food pack for 5-6 people, Taxi transfer quote, Cot, Foodpack for 8-9 people",
+        "permissions": "No Pets"
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015-01", "2015-02", "2015-03", "2015-38", "2015-39", "2015-40", "2015-41", "2015-42", "2015-43",
+        "2016-01", "2016-02", "2016-03", "2016-04", "2016-47", "2016-48", "2016-49", "2016-50", "2016-51", "2016-52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 3,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-225.htm",
+      "name": "Apartment Belize",
+      "summary": " Very well furnished, comfortable two bedroom apartment in Lagos.",
+      "description": "Very well funished T-3 apartment apartment in the town of Lagos. This apartment is on the 2nd floor (access by elevator) of a new building in a new part of Lagos. Plenty of shops and restuarants in walking distance. Approximately 10-15 minutes to the centre by foot. As you come in to this apartment, you enter in to the hallway with to the left the spacious comfortable living room. The master bedroom is en-suite and has a double bed. The 2nd bedroom is a twin (two single beds).",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg"]
+      },
+      "weeklyFee": 420,
+      "location": {
+        "local": "Algarve, Lagos",
+        "gps": {
+          "latitude": "37.106883",
+          "longitude": "-8.674818"
+        }
+      },
+      "characteristics": {
+        "capacity": 5,
+        "area": 100,
+        "rooms": 5,
+        "bedrooms": 2,
+        "amenities": "Lift, Wi Fi Internet, Gas Hob, TV Satelitte (Dutch), TV Satelitte, TV (Cable), TV (Portuguese), Safe, Stereo, Telephone, DVD player, Car parking, Dryer, Washing machine, Dishwasher, Toaster, Coffee Machine, Fruit Press, Kettle, Microwave, Oven, Fireplace, Central heating, Fans, (Private) roof terrace, Fridge / Freezer",
+        "availableExtras": "Push buggy, Car hire quote, Food pack for 1-2 people, Food pack for 3-4 people, High chair, Food pack for 5-6 people, Taxi transfer quote, Cot, Foodpack for 8-9 people, I.D.T.V.",
+        "permissions": "Rental License"
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 4,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-4968.htm",
+      "name": "Apartment Bojador",
+      "summary": "Superb 3 Bedroom south facing Apartment located just outside the city wall of the historic town of Lagos.",
+      "description": "This well furnished Apartment is located on the 2nd.and top floor of this south facing block. It comprises an entrance hall, lounge with log fire, large breakfast kitchen, 2 full bedrooms with double beds and a 3rd. bedroom in use as office with a sofa bed. There are 2 full bathrooms both with shower and shower door. Looking for the perfect outdoor activity? Taking your family on a trip to Lagos, in the Western Algarve, Portugal, is a terrific idea because of the many outdoor activities that Lagos and its surrounding towns have to offer. The multitude of scenic sights in the region include walking trails surrounded by a gorgeous blue sea, not to mention its fantastic old style streets. Lagos is an ideal vacation choice for families with varied interests. It doesn't matter which outdoor activities you love to do, because you will definitely find enjoyment while visiting Lagos and its surrounding areas. So what Outdoor Activites are there? Monthly Spotlights. We will be bringing you every month a range of organisations that specialise in outdoor activities and we will be offering you a choice of activities that are appropriate for the specific month. So check out our reviews. There are many type of outdoor recreation activities in Lagos that you, your family and friends can enjoy. Be it in the air, water, sun or on land (earth). Lagos is a very popular location for families and offers a myriad of things that you can enjoy, even for the youngest children, such as taking them to the Lagos Zoo or any of the many playgrounds around town. Teenagers who have a passion for skateboarding can take their skills to our skateboard park. There are also major other attractions such as seeing the dolphins in their own habitat, flying a kite or just enjoying a lazy day on one of the many beaches that surrounds Lagos. In addition, there are three golfing ranges in very close proximity of each other. Anyone who loves having fun in the fresh air and sunshine will enjoy more than a day here, because all of the activities are held outdoors in the beautiful Lagos weather which is so typical of the Algarve. In Bensafrim, Barao de Sao Joao and Odiaxere, there are many opportunities for outdoor recreation vehicles, shooting ranges, bike trails, and horse rides to name but a few. Visitors can also enjoy a hot air-balloon flight or a fly over Lagos in a water plane. Families with children of all ages will enjoy the time they spend in Lagos because of the sheer variety of outdoor activities to choose from. In the spotlight and review section of the website we give you a sneak preview of everything that you can enjoy here. We have gone and identified the many offerings in town, spoke to the service providers and wrote about our findings. Let us know about your experiences, what you liked, what else should Lagos be offering you, so that we can share them with others. Finally, its time for you to join us, go outdoors, enjoy our fantastic weather and have a great time and when it is time for you to leave, do so while wanting to come back soon.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg"]
+      },
+      "weeklyFee": 245,
+      "location": {
+        "local": "Algarve, Lagos",
+        "gps": {
+          "latitude": "37.098771",
+          "longitude": "-8.677756"
+        }
+      },
+      "characteristics": {
+        "capacity": 5,
+        "area": 130,
+        "rooms": 5,
+        "bedrooms": 3,
+        "amenities": "Wi Fi Internet, Gas Hob, TV Satelitte (Dutch), TV (Portuguese), BBQ, Safe, Stereo, Telephone, DVD player, Car parking, Dryer, Washing machine, Dishwasher, Toaster, Coffee Machine, Fruit Press, Kettle, Microwave, Oven, Fireplace, Electrical heaters, Fans, Fridge / Freezer",
+        "availableExtras": "Push buggy, Car hire quote, Food pack for 1-2 people, Food pack for 3-4 people, High chair, Taxi transfer quote, Cot, I.D.T.V., Bike, Concept 2 Rowing Machine",
+        "permissions": "Rental License"
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 5,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-4968.htm",
+      "name": "Casa dos Malucos",
+      "summary": "Holiday Rental 3 bedroom villa, with pool, in Colinas Verdes, very quiet location, in residential area, 10km from the beaches and the town of Lagos - Algarve - Portugal",
+      "description": "Casa dos Malucos is a company owned holiday villa located approx. 10 km. north of the town of Lagos in the western Algarve. The villa is loacted in a well secluded area as it's set amongst a small pine tree forest in the Urbanization of 'Colinas Verdes' (means: Green hills). It has 2 double bedrooms, one if which is en-suite, the third bedroom has two single beds. The large lounge has a snooker table. Outside you will find the BBQ, plenty of terrace area and the 11x5m swimming pool with diving board. Pool is heated and has pool-cover. Ideal for a family to relax, even peaceful in peak season.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg"]
+      },
+      "weeklyFee": 700,
+      "location": {
+        "local": "Algarve, Lagos",
+        "gps": {
+          "latitude": "37.165033",
+          "longitude": "-8.702574"
+        }
+      },
+      "characteristics": {
+        "capacity": 6,
+        "area": 130,
+        "rooms": 5,
+        "bedrooms": 3,
+        "amenities": "TV SKY (UK), Outside shower, Gas Hob, TV Satelitte, BBQ, Pool table, Stereo, Telephone, DVD player, Car parking, Dryer, Washing machine, Dishwasher, Toaster, Coffee Machine, Fruit Press, Kettle, Microwave, Oven, Fireplace, Electrical heaters, Fans, Airco / Heating, Fridge / Freezer, Electric blinds",
+        "availableExtras": "Push buggy, Car hire quote, Food pack for 1-2 people, Food pack for 3-4 people, High chair, Food pack for 5-6 people, Taxi transfer quote, Cot, Foodpack for 8-9 people",
+        "permissions": ""
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 6,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-4968.htm",
+      "name": "Casa Dora",
+      "summary": "Een zeer ruim en licht huis. Sfeervol ingericht met houten en rotan meubels die mooi contrasteren met de witte muren. Vanuit de ruime woonkamer met grote open keuken gaat er een trap naar een open vide. Hier is de tv-hoek en een bedbank voor een eventuele 5e per-soon. Het voorterras op het zuiden geeft uitzicht op de siertuin, terwijl op het grondstuk achter het huis bijna uitsluitend, soms zeer oude, kurkeiken staan.",
+      "description": "Het huis ligt zo'n 50 meter van een zeer rustige verharde weg. Als uitgangspunt voor tochten in het zuidwestelijke gedeelte van de Algarve ligt Casa Dora zeer centraal. In 30 minuten rijdt u bv. naar de westkust van de Algarve en het aangrenzende Alentejo of de zuidkust ten westen van Lagos met zijn kleine strandjes en vissersdorpjes. Een must is natuurlijk Europa's meest zuidwestelijke punt, de Cabo de São Vincente. Prachtig is ook een tocht, via het stuwmeer Barragem de Bravura (zwemmen! op 10 minuten van het huis) naar het Monchique gebergte. Gemoedelijk gaat het er nog aan toe in het mooie stadje Lagos (15 min) met zijn kilometers lange zandstrand. Veel drukker is het daarentegen in de havenstad Portimão met het aan-grenzende toeristencentrum Praia da Rocha op 20 minuten afstand. Voor golfers staan er in de directe nabijheid 3 golfterreinen ter beschikking. Een daavan zelfs binnen de gemeentegrenzen van Odiáxere! Kortom bij Casa Dora hoeft u zich niet te vervelen! Odiáxere heeft vele kleine restaurantjes waar u nog voor weinig geld Portugees kunt eten. Ook de dagelijks boodschappen kunnen in één van de supermarktjes gedaan worden. Grotere supermarkten vind u o.a. in Lagos.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg"]
+      },
+      "weeklyFee": 507.5,
+      "location": {
+        "local": "Algarve, Lagos",
+        "gps": {
+          "latitude": "37.153944",
+          "longitude": "-8.672339"
+        }
+      },
+      "characteristics": {
+        "capacity": 5,
+        "area": 100,
+        "rooms": 4,
+        "bedrooms": 2,
+        "amenities": "Gas Hob, TV (Portuguese), Stereo, DVD player, Car parking, Dryer, Washing machine, Dishwasher, Toaster, Coffee Machine, Fruit Press, Kettle, Microwave, Oven, Fireplace, Fridge / Freezer",
+        "availableExtras": "Push buggy, Car hire quote, Food pack for 1-2 people, Food pack for 3-4 people, High chair, Cot ",
+        "permissions": ""
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 7,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-4968.htm",
+      "name": "Vila Solo Mio",
+      "summary": "Spacious 3 bedroom Algarve, holiday rental villa, with swimming pool, in Colinas Verdes Urbanization, 10 KM north of Lagos.",
+      "description": "Vila Solo Mio is located approx. 10 km north of the town of Lagos in the urbanization called Colinas Verdes. Colinas Verdes means 'green hills' in Portuguese. This privately owned holiday villa has 3 bedrooms and 2 bathrooms. This villa is ideal for a family to relax in a peaceful surroundings and yet it's only a 10 minute drive to the town of Lagos and the beaches. The villa sits on a plot of 2000 sq metres and has views towards Lagos and Portimão.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
+      },
+      "weeklyFee": 995,
+      "location": {
+        "local": "Algarve, Lagos",
+        "gps": {
+          "latitude": "37.098111",
+          "longitude": "-8.670594"
+        }
+      },
+      "characteristics": {
+        "capacity": 6,
+        "area": 120,
+        "rooms": 5,
+        "bedrooms": 3,
+        "amenities": "Gas Hob, TV Satelitte, TV (Portuguese), BBQ, Car parking, Dishwasher, Coffee Machine, Fruit Press, Kettle, Microwave, Oven, Fireplace, Fridge / Freezer.",
+        "availableExtras": "Push buggy, Car hire quote, Food pack for 1-2 people, Food pack for 3-4 people, High chair, Food pack for 5-6 people, Taxi transfer quote, Cot, Foodpack for 8-9 people.",
+        "permissions": ""
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 8,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-4968.htm",
+      "name": "Vila Alta Mira",
+      "summary": "Rental villa in Colinas Verdes - Lagos - Algarve - Portugal",
+      "description": "Located approx. 10 km. north of the town of Lagos in the urbanization called Colinas Verdes. This private villa has 3 bedrooms and 2 bathrooms. This villa is ideal for a family to relax in a peaceful surrounding and yet it's only a 10 minute drive to the town of Lagos and the beaches. The villa has a games room with a bar. The family who live across the road have horses and would be happy to take you out for a ride.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg"]
+      },
+      "weeklyFee": 700,
+      "location": {
+        "local": "Algarve, Lagos",
+        "gps": {
+          "latitude": "37.09351",
+          "longitude": "-8.675654"
+        }
+      },
+      "characteristics": {
+        "capacity": 6,
+        "area": 166,
+        "rooms": 5,
+        "bedrooms": 3,
+        "amenities": "Wi Fi Internet, TV Satelitte, TV (Portuguese), BBQ, Safe, Stereo, Telephone, Car parking, Washing machine, Coffee Machine, Kettle, Microwave, Oven, Fireplace, Electrical heaters, Fans, Fridge / Freezer",
+        "availableExtras": "Push buggy, Car hire quote, Food pack for 1-2 people, Food pack for 3-4 people, High chair, Food pack for 5-6 people, Taxi transfer quote, Cot, I.D.T.V.",
+        "permissions": ""
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 9,
+      "url": "http://www.waytostay.com/barcelona-apartments/sueno-miro-0150/",
+      "name": "Sueño Miró",
+      "summary": "We like this apartment because it features colourful modern design, and lies off the beaten track. Close to Parc Central del Poblenou, the interior takes its cue from the innovative green space. Couples will be inspired by this rental, as well as by its price tag – bargain!",
+      "description": "We like this apartment because it features colourful modern design, and lies off the beaten track. Close to Parc Central del Poblenou, the interior takes its cue from the innovative green space. Couples will be inspired by this rental, as well as by its price tag – bargain! Divided by the Eixample’s long Diagonal road, the New Town is mainly residential. There are a couple of ultra-modern buildings and an old, brick chimney or two, just for good measure. The weird and wonderful Parc del Poble Nou is worth checking out. And you can’t help but like the equally odd-looking Torre Agbar. The charming Rambla de Poble Nou, provides as pleasant a stroll as you could wish for. You’ll reach the beach eventually. But it’s impossible not to stop off for a terrace coffee.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg"]
+      },
+      "weeklyFee": 245,
+      "location": {
+        "local": "Barcelona, Espanha",
+        "gps": {
+          "latitude": "41.378978",
+          "longitude": "2.149704"
+        }
+      },
+      "characteristics": {
+        "capacity": 2,
+        "area": 50,
+        "rooms": 2,
+        "bedrooms": 1,
+        "amenities": "Internet, TV, Air conditioning, Bed linen, Washing machine, Balcony, Heating, Towels, Oven, DVD, Dishwasher, Complete kitchenware.",
+        "availableExtras": "",
+        "permissions": "smoking allowed, pets are not allowed, no parties please, young children not allowed"
+      },
+      "comments": [
+        {
+          "points": 4,
+          "comment": "Cozy, well equipped - even w/juice maker and premium kitchen facilities; helpful host Could be more centrally located (but knew that before - so no complaints...)",
+          "date": "2013-05-23",
+          "author": "Patrick, mature couple, Düsseldorf, German"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very comfortable apartment with all the necessary things provided to make the stay an easy one- toilet paper, paper towels, tea towels, hand soap, laundry detergent etc. Owner was friendly and helpful, booking a taxi to pick us up for the airport on the final day. Poblenou and Bac de Roda stations are only 10 minutes' walk away and the supermarket around 300 metres. Great neighbourhood, with easy access to the city and beach. We were most impressed.",
+          "date": "2013-10-07",
+          "author": "Emily, young couple, Marsfield, Australia"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Prima app. voor een stedentrip. Alles aanwezig en schoon. Centrum goed bereikbaar met metro die niet ver weg ligt. Rustige wijk. Best wel een aanrader.",
+          "date": "2013-10-18",
+          "author": "Cornelis, mature couple, Oss, Netherlands"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Prima, compleet en lux ingericht appartement. Het enige nadeel vonden wij wel het trappen lopen (naar de derde etage).",
+          "date": "2013-10-31",
+          "author": "Henk, mature couple, Voorburg, Netherlands"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "El departamento cubrió en exceso mis necesidades. El lugar geográfico, si bien un poco lejano del centro de la ciudad, tiene facil acceso de los medios de transporte. TODO BIEN!",
+          "date": "2013-11-17",
+          "author": "Daniel, solo traveller, Haedo, Argentina"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 10,
+      "url": "http://www.waytostay.com/lisbon-apartments/monteiro-4075/?arrivalDate=2014-01-06&departureDate=2014-01-09&numberOfPeople=4&city=33",
+      "name": "Monteiro, Lisbon apartment",
+      "summary": "Ah, a quiet spot to relax out on the terrace. Blissful. Sit with a coffee and plan your day. You’ll find some of the best views of Lisbon in this area, so don’t forget your camera. For more action take the famous tram 28 into the centre, sightseeing along the way. And later back at the bright and modern apartment, make yourself at home. Comfy.",
+      "description": "Ah, a quiet spot to relax out on the terrace. Blissful. Sit with a coffee and plan your day. You’ll find some of the best views of Lisbon in this area, so don’t forget your camera. For more action take the famous tram 28 into the centre, sightseeing along the way. And later back at the bright and modern apartment, make yourself at home. Comfy. You won’t get much better views than those in the peaceful Graça district. And how do you get there? Just hop on the iconic Tram 28. From the Miradouro da Graça view point or the Miradouro da Senhora do Monte (the highest point in Lisbon) you’ll have some gorgeous vistas over Lisbon's skyline and the Tejo River. Not to mention that they are great places to have a quiet coffee and relax. Stop off at one of the local shops or take a nice stroll down to Alfama or Baixa / Chiado.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg"]
+      },
+      "weeklyFee": 375,
+      "location": {
+        "local": "Lisboa",
+        "gps": {
+          "latitude": "38.712736",
+          "longitude": "-9.127835"
+        }
+      },
+      "characteristics": {
+        "capacity": 4,
+        "area": 107,
+        "rooms": 5,
+        "bedrooms": 2,
+        "amenities": "Internet, TV, Air conditioning, Bed linen, Washing machine, Microwave, Balcony, International TV, Heating, Towels, Oven, Terrace, Parking, Baby cot, Dishwasher, Complete kitchenware, Garden, Lift.",
+        "availableExtras": "",
+        "permissions": "Smoking allowed, pets are not allowed, no parties"
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    }
+    ,
+    {
+      "id": 11,
+      "url": "http://www.homeaway.com/vacation-rental/p939580a",
+      "name": "Sesimbra Apartment",
+      "summary": "Apartment with incomparable beauty",
+      "description": "Sesimbra is located in a privileged natural beauty. This charming hill because of its location offers unique moments of pleasure and relaxation. Boasts a comfortable terrace overlooking the sea, ideal for a good meal and rest. Be divided into up against an area of ??100m2 distributed by a suite with TV, bedroom with two single beds with TV, fully equipped kitchen, service bathroom and the living room and dining room with TV ample space to enjoy with family. This apartment is part of a condominium with indoor garden, a direct lift to the car park and private beach california the view from the terrace, lounge and following the same.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg"]
+      },
+      "weeklyFee": 660,
+      "location": {
+        "local": "Sesimbra",
+        "gps": {
+          "latitude": "38.442041",
+          "longitude": "-9.094231"
+        }
+      },
+      "characteristics": {
+        "capacity": 4,
+        "area": 100,
+        "rooms": 3,
+        "bedrooms": 2,
+        "amenities": "wheelchair accessible, suitable for elderly or infirm",
+        "availableExtras": "",
+        "permissions": "Non smoking only, children welcome, pets not allowed"
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Internet was not working.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+        ,
+        {
+          "points": 5,
+          "comment": "Very nice stay.",
+          "date": "2013-07-07",
+          "author": "johnc"
+        }
+        ,
+        {
+          "points": 4,
+          "comment": "Nice stay.",
+          "date": "2013-08-12",
+          "author": "rstrauss"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    },
+    {
+      "owner": 1,
+      "id": 12,
+      "url": "http://www.rental-algarve.com/accommodation-en-177-109.htm",
+      "name": "Santa Marta Apartment",
+      "summary": "2 bedroom apartment in central Lisbon, in Santa Marta",
+      "description": "Ideally located close to Lisbon's most famous avenue (Avenida da Liberdade) and very near the historic city center. The apartment is fully equipped and prepared for 4 people. It has 2 bedrooms, one with a double bed and one with twin beds, TV room, kitchen and bathroom with tub and washing machine.Near several public transportation, shopping, supermarkets, restaurants, museums, cinemas, theaters and various other cultural sites. After arriving a vehicle is not necessary and can move easily throughout the city. ",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"]
+      },
+      "weeklyFee": 350,
+      "location": {
+        "local": "Rua Passadiço, Santa Marta,Lisboa",
+        "gps": {
+          "latitude": "38.723161",
+          "longitude": "-9.144343"
+        }
+      },
+      "characteristics": {
+        "capacity": 4,
+        "area": 150,
+        "rooms": 2,
+        "bedrooms": 2,
+        "amenities": "TV room, kitchen and bathroom with tub and washing machine",
+        "availableExtras": "",
+        "permissions": "No Pets"
+      },
+      "comments": [
+        {
+          "points": 5,
+          "comment": "Excelent Location.",
+          "date": "2013-05-31",
+          "author": "rwagner"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    },
+    {
+      "owner": 1,
+      "id": 13,
+      "url": "http://www.homeaway.com/vacation-rental/p7625",
+      "name": "Murteiras Apartment",
+      "summary": "THE FINEST PRIVATE HOLIDAY APARTMENT IN MADEIRA",
+      "description": "High standard, sunny and bright apartment with breathtaking panoramic view. Murteiras Apartment is a charming and romantic atmosphere top floor apartment with character, decorated with very good taste and the constant improvement makes this apartment most welcoming. Wide sliding glass doors lead onto the large private balcony with a small table, chairs and a hammock to enable relaxation overlooking the breathtaking panoramic ocean, city and mountains view.Sunsets are an absolute must at this apartment! Ideally located in a Funchal city quiet alley, opposite from the touristic area which facilitates immediate contact with genuine local life. Not far from the city centre and very near the motorway which ensures easy access to the rest of the Island.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg"]
+      },
+      "weeklyFee": 600,
+      "location": {
+        "local": "Caminho do Palheiro, Funchal,Madeira",
+        "gps": {
+          "latitude": "32.65456",
+          "longitude": "-16.886968"
+        }
+      },
+      "characteristics": {
+        "capacity": 4,
+        "area": 150,
+        "rooms": 2,
+        "bedrooms": 2,
+        "amenities": "TV room, kitchen and bathroom with tub and washing machine",
+        "availableExtras": "",
+        "permissions": "No Pets"
+      },
+      "comments": [
+        {
+          "points": 4,
+          "comment": "Fantastic Island. Great firework view on new year party",
+          "date": "2014-01-02",
+          "author": "rwagner"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    },
+    {
+      "owner": 1,
+      "id": 14,
+      "url": "http://www.homeaway.com/vacation-rental/p44043o",
+      "name": "Casa do Brasao",
+      "summary": "The Coat of Arms Cottage, 10 mins to historic towns of Marvao and Castelo de Vide",
+      "description": "Sleeps 4/6. 3 bedroom cottage with garden and plunge pool. Sat TV. Parking. Decorated with a blend of Moorish, Alentejo and contemporary styles. Situated in the natural park of Serra de Sao Mamede and only 10 mins to historic towns of Marvao and Castelo de Vide. A wonderful region for walking.'Casa do Brasao', The Coat of Arms Cottage, originally built in 1856, is a fully restored and stylishly decorated cottage situated in an area of outstanding natural beauty. Walks on Roman roads, Roman ruins, Megalithic stones, historic towns with castles, vineyards, olive groves and a rich bounty of flora and fauna. This charming cottage is located on the edge of a small, peaceful Alentejo village untouched by time. Discover cobbled streets surrounded by beautiful olive groves, cork oak trees and ancient pathways. There are a number of small cafes and a small village shop for a few essentials. A wider choice is available at a good supermarket (Pingodoce) in Castelo de Vide - 9.5km, and a mini market in Santo Antonio das Areias - 2.6km. The 3 bedroom cottage is surrounded by a garden with huge granite boulders, cork oak trees for shade, a sun terrace, a small plunge pool, a barbecue and off street parking.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
+      },
+      "weeklyFee": 425,
+      "location": {
+        "local": "Rua da fonte velha, Marvão",
+        "gps": {
+          "latitude": "39.43473",
+          "longitude": "-7.36091"
+        }
+      },
+      "characteristics": {
+        "capacity": 6,
+        "area": 200,
+        "rooms": 3,
+        "bedrooms": 3,
+        "amenities": "TV room, kitchen and bathroom with tub and washing machine",
+        "availableExtras": "",
+        "permissions": "Pets alowwed"
+      },
+      "comments": [
+        {
+          "points": 4,
+          "comment": "Extremely calm",
+          "date": "2014-01-18",
+          "author": "ogait"
+        }
+      ],
+      "reservations": [
+        "2014w02", "2014w03", "2014w04", "2014w05", "2014w09", "2014w10", "2014w11", "2014w12", "2014w13", "2014w14", "2014w26",
+        "2015w01", "2015w02", "2015w03", "2015w38", "2015w39", "2015w40", "2015w41", "2015w42", "2015w43",
+        "2016w01", "2016w02", "2016w03", "2016w04", "2016w47", "2016w48", "2016w49", "2016w50", "2016w51", "2016w52"
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    },
+    {
+      "owner": 1,
+      "id": 15,
+      "url": "http://www.homeaway.com/vacation-rental/p2153396",
+      "name": "Mertola House",
+      "summary": "VACATION HOME IN MÉRTOLA, ALENTEJO - 8 PERSONS, 4 BEDROOM(S)",
+      "description": "building and outdoor:Modern, beautiful, comfortable country house. In the resort, on the outskirts, in a quiet position. Private: property 100 m2, garden 100 m2 with lawn, public car park. Shopping centre 14 km, restaurant 14 km. interior:10-room farmhouse 174 m2, modern and luxurious furnishings: living/dining room with TV and wood-burning stove. Exit to the garden. 3 double bedrooms, each room with 2 beds and shower/WC. 1 double bedroom with 1 double bed and shower/WC. Kitchen (4 hot plates, oven, dishwasher, microwave, freezer). Heating. Balcony, garden 136 m2. Terrace furniture. View of the countryside and the resort. Facilities: baby cot for up to 3 year olds.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
+      },
+      "weeklyFee": 900,
+      "location": {
+        "local": "Corte Gafo de Cima, Mértola",
+        "gps": {
+          "latitude": "37.721431",
+          "longitude": "-7.707079"
+        }
+      },
+      "characteristics": {
+        "capacity": 8,
+        "area": 250,
+        "rooms": 3,
+        "bedrooms": 4,
+        "amenities": "Heating. Balcony, garden 136 m2. Terrace furniture.",
+        "availableExtras": "",
+        "permissions": "Pets alowwed"
+      },
+      "comments": [],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    },
+    {
+      "owner": 1,
+      "id": 16,
+      "url": "http://www.homeaway.com/vacation-rental/p1273961",
+      "name": "SEMI-DETACHED HOLIDAY HOME WITH COMMUNAL SWIMMINGPOOL IN LAVRE",
+      "summary": "If you are looking for peace, nature and culture, this is the ideal location for exploring the green heart of Portugal.",
+      "description": "This semi-detached holiday home is located on a restored farm in Lavre, near the city of Montemor-o-Novo, in the province of Alentejo. The holiday home is in a rural location on a 6 hectares property amidst the old cork trees, olive trees and fruit trees. The Flemish owners have built four holiday homes here, one of which they occupy themselves, and the others are let out. Each holiday home has its own terrace and barbecue. The holiday home is simply decorated and has all of the basic facilities and consists of a pizza oven. You will fully relax here! Read one of the books on site, play billiards or a board game in the recreation room. There is a swimming pool in the garden with a separate childrens area with a fountain and a petanque pitch which is shared with the other guests.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg"]
+      },
+      "weeklyFee": 425,
+      "location": {
+        "local": "Lavre, Vendas Novas",
+        "gps": {
+          "latitude": "38.773073",
+          "longitude": "-8.362582"
+        }
+      },
+      "characteristics": {
+        "capacity": 6,
+        "area": 200,
+        "rooms": 3,
+        "bedrooms": 2,
+        "amenities": "billiards,swimming pool",
+        "availableExtras": "",
+        "permissions": "Pets alowwed"
+      },
+      "comments": [
+        {
+          "points": 0,
+          "comment": "realy bad swimming pool, broken billiard",
+          "date": "2013-08-18",
+          "author": "ogait"
+        }
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+        ,
+        {
+          "2015": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+        ,
+        {
+          "2016": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52"]
+        }
+      ]
+    },
+    {
+      "owner": 1,
+      "id": 17,
+      "url": "http://www.homeaway.com/vacation-rental/p1241047",
+      "name": "Sousel House",
+      "summary": "Holiday home, 2 Bedrooms, 1 Bathroom, (Sleeps 4)",
+      "description": "Detached holiday home on the top of a hill with a view of the strongholds of Estremoz and Evoramente. The holiday home is equipped with a private terrace and only 150 metres away you will find a communal pool.These costs are charged on site. They are not included in the rental price.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg"]
+      },
+      "weeklyFee": 800,
+      "location": {
+        "local": "Estremoz",
+        "gps": {
+          "latitude": "38.808781",
+          "longitude": "-7.674086"
+        }
+      },
+      "characteristics": {
+        "capacity": 4,
+        "area": 150,
+        "rooms": 2,
+        "bedrooms": 2,
+        "amenities": "Swimming pool",
+        "availableExtras": "",
+        "permissions": "Pets alowwed"
+      },
+      "comments": [
+        {
+          "points": 2,
+          "comment": "Swimming pool was green",
+          "date": "2013-10-12",
+          "author": "ogait"
+        }
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+      ]
+    },
+    {
+      "owner": 1,
+      "id": 18,
+      "url": "http://www.homeaway.com/vacation-rental/p2153212",
+      "name": "VACATION HOME IN RIO MAIOR, LISBON-TEJO VALLEY",
+      "summary": "Rio Maior: Comfortable country house",
+      "description": "building and outdoor:Rio Maior: Comfortable country house, built in 2002. Outside the resort Rio Maior, in a quiet, sunny position, 25 km from the sea. Private: swimming pool angular (01.01.-31.12.) with internal staircase. Terrace, garden furniture, barbecue. In the house: central heating system. Parking at the house on the premises, single garage. Shop 3 km, supermarket 3 km, restaurant 1 km, bar 3 km, sandy beach 25 km, indoor swimming pool 2 km. Golf course 5 km, tennis 5 km. Please note: motorway 5 km from the property. Main road 100 m from the property. Nightclub/disco 25 km from the property. interior:5-room house, comfortable and wooden furniture furnishings: living room. Exit to the patio. 3 rooms, each room with 2 beds and shower/WC. 1 double bedroom with shower/WC. Open kitchen (oven, microwave, grill) with dining table. Oil heating. . Panoramic view of the valley. Facilities: baby cot for up to 3 year olds.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg"]
+      },
+      "weeklyFee": 1500,
+      "location": {
+        "local": "Rua Cidade de Rio Maior, Rio Maior",
+        "gps": {
+          "latitude": "39.355463",
+          "longitude": "-8.956359"
+        }
+      },
+      "characteristics": {
+        "capacity": 8,
+        "area": 250,
+        "rooms": 4,
+        "bedrooms": 4,
+        "amenities": "Balcony, large terrace roofed. Terrace furniture",
+        "availableExtras": "",
+        "permissions": "Pets alowwed"
+      },
+      "comments": [
+        {
+          "points": 5,
+          "comment": "It was fantastic",
+          "date": "2013-09-01",
+          "author": "ogait"
+        }
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+      ]
+    },
+    {
+      "owner": 1,
+      "id": 19,
+      "url": "http://www.homeaway.com/vacation-rental/p416358",
+      "name": "SAO MAMEDE cottage",
+      "summary": "BEAUTIFUL COTTAGE IN THE HEART OF THE SAO MAMEDE NATURAL PARK",
+      "description": "In the heart of the Sao Mamede Natural Park surrounded by cork, pine and eucalyptus forest and over 2 acres of fully organic land with 220 olive trees, various fruit trees and an organic vegetable garden. A beautiful fully converted using natural products 150 year old cart makers cottage with 2 bedrooms, 1 bathroom and an additional bed-settee if necessary in the living area.Free Wi-Fi internet access for all our guests, bring your own computer and surf for free! Over 200 species of birds including Golden Eagle, many areas for relaxing, a refreshing and welcoming swimming pool, totally private and peaceful with only the sounds of goat and sheep bells and the surrounding wildlife. 1km from a very friendly hamlet with bar/restaurant/cafe with English speaking lady bar owner.",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
+      },
+      "weeklyFee": 360,
+      "location": {
+        "local": "Alegrete, Portalegre",
+        "gps": {
+          "latitude": "39.237218",
+          "longitude": "-7.323129"
+        }
+      },
+      "characteristics": {
+        "capacity": 6,
+        "area": 150,
+        "rooms": 2,
+        "bedrooms": 3,
+        "amenities": "Events Allowed. children welcome. Long-term Renters Welcome wheelchair inaccessible suitable for elderly or infirm",
+        "availableExtras": "",
+        "permissions": "Pets allowed"
+      },
+      "comments": [
+        {
+          "points": 1,
+          "comment": "Light problem",
+          "date": "2013-09-18",
+          "author": "wazah"
+        }
+      ],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+      ]
+    }
+    ,
+    {
+      "owner": 1,
+      "id": 20,
+      "url": "http://www.homeaway.com/vacation-rental/p65350",
+      "name": "Boavista dos Pinheiros, Villa",
+      "summary": "LUXURY MODERN VILLA & POOL IN UNSPOILT RURAL LOCATION, NEAR SEA",
+      "description": "A recently constructed villa in its own spacious grounds with a large swimming pool and adjacent tennis court. There are 2 family suites with sofa beds and a King size bed in each, and a further 5 double bedrooms all with en-suite facilities. The entire villa has thermostatically controlled under floor heating for those cooler evenings at the beginning and end of the year. A very large lounge and dining area leads to a modern well fitted kitchen. There is a very comfortable TV room with satellite TV and DVD player. Between the 2 wings of the villa is a tiled piazza area with tables and chairs,and table tennis, leading to the pool and surrounding patio area. A lawn to one side and extensive grounds surround the villa, leading to a cork oak valley. We have just installed FREE wireless internet access in the Quinta!",
+      "photos": {
+        "featuredPhoto": "featured.jpg",
+        "album": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg"]
+      },
+      "weeklyFee": 4000,
+      "location": {
+        "local": "Lavre, Vendas Novas",
+        "gps": {
+          "latitude": "37.577967",
+          "longitude": "-8.679653"
+        }
+      },
+      "characteristics": {
+        "capacity": 14,
+        "area": 500,
+        "rooms": 7,
+        "bedrooms": 7,
+        "amenities": "wheelchair accessible, children welcome, Long-term Renters Welcome, smoking allowed",
+        "availableExtras": "",
+        "permissions": "Pets alowwed"
+      },
+      "comments": [],
+      "availability": [
+        {
+          "2014": ["02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "26", "27", "28", "29", "30", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "49", "50", "51"]
+        }
+      ]
+    }
+  ],
+  "nextId": 21
+}

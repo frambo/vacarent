@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04d0de1c-ee92-4043-8e34-ca1e5294c4bc" name="Default" comment="first delivery" />
+    <ignored path="Ex2-siteNew.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Ex2-siteNew" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="2" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="952">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="habitationsDb.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/habitationsDb.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="285" column="0" selection-start="8780" selection-end="8780" vertical-scroll-proportion="0.20153551" vertical-offset="4740" max-vertical-offset="7480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/routes/authz.js" />
+        <option value="$PROJECT_DIR$/node_modules/bower/node_modules/bower-config/node_modules/optimist/index.js" />
+        <option value="$PROJECT_DIR$/routes/init.js" />
+        <option value="$PROJECT_DIR$/model/aboutDb.json" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/accordionBibliotech.ejs" />
+        <option value="$PROJECT_DIR$/public/data/home.json" />
+        <option value="$PROJECT_DIR$/routes/about.js" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/claims.ejs" />
+        <option value="$PROJECT_DIR$/views/urlNotFound.ejs" />
+        <option value="$PROJECT_DIR$/views/layout/pageBottom.ejs" />
+        <option value="$PROJECT_DIR$/views/layout/pageTop.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/login.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/carousel.ejs" />
+        <option value="$PROJECT_DIR$/views/aboutView.ejs" />
+        <option value="$PROJECT_DIR$/views/layout/mainMenu.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/data/homeDb.json" />
+        <option value="$PROJECT_DIR$/public/stylesheets/carousel.css" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/display.ejs" />
+        <option value="$PROJECT_DIR$/views/habitationsListViewAJAX.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/accordionTechnology.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/accordionDesign.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/authors.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/claim.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/gallery.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/galleryG05.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/googleMap.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/highlights.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/maps-addHab.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/maps-showLocationOnMap.ejs" />
+        <option value="$PROJECT_DIR$/views/habitationAddView.ejs" />
+        <option value="$PROJECT_DIR$/views/habitationDetailedView.ejs" />
+        <option value="$PROJECT_DIR$/views/habitationDetailedViewG05.ejs" />
+        <option value="$PROJECT_DIR$/views/homeView.ejs" />
+        <option value="$PROJECT_DIR$/views/register.ejs" />
+        <option value="$PROJECT_DIR$/views/signin.ejs" />
+        <option value="$PROJECT_DIR$/model/usersDb.js" />
+        <option value="$PROJECT_DIR$/model/g05util.js" />
+        <option value="$PROJECT_DIR$/routes/authorization.js" />
+        <option value="$PROJECT_DIR$/routes/home.js" />
+        <option value="$PROJECT_DIR$/routes/habitations.js" />
+        <option value="$PROJECT_DIR$/views/habitationsListView.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/paginationAJAX.ejs" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/pagination.ejs" />
+        <option value="$PROJECT_DIR$/public/data/aboutDb.json" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/accordionRequirements.ejs" />
+        <option value="$PROJECT_DIR$/public/data/habitationsDb.json" />
+        <option value="$PROJECT_DIR$/views/buildingBlocks/search.ejs" />
+        <option value="$PROJECT_DIR$/model/habitationsDb.js" />
+        <option value="$PROJECT_DIR$/routes/search.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1592" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VacationRentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="VacationRentals">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesEJS" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="228" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="252" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="253" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="803" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="247" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="246" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="247" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="796" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Git work\Series\VacationRentals\views" />
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Git work\Series\VacationRentals\views\buildingBlocks" />
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Git work\Series\VacationRentals\public\data" />
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Git work\Series\VacationRentals\public\images" />
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Git work\Series\VacationRentals" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Git work\Series\VacationRentals\public\data" />
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Git work\Series\VacationRentals\model" />
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Trabalhos Git Work\Estudo\ABS\Node\Ex2-Express\data" />
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Trabalhos Git Work\Estudo\ABS\Node\Ex2-Express\views\buildingBlocks" />
+      <recent name="C:\Users\António\Documents\LEIC local\PI local\1314i\Trabalhos Git Work\Estudo\ABS\Node\Ex2-Express\public\images\logo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="app.js JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:3000">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.app.js JavaScript" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04d0de1c-ee92-4043-8e34-ca1e5294c4bc" name="Default" comment="" />
+      <created>1387622847249</created>
+      <updated>1387622847249</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial setup">
+      <created>1387623439785</created>
+      <updated>1387623439785</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial WebStorm status">
+      <created>1387627546073</created>
+      <updated>1387627546073</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial mockup version">
+      <created>1387842687880</created>
+      <updated>1387842687880</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial mockup version">
+      <created>1387842716626</created>
+      <updated>1387842716626</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial mockup version">
+      <created>1387842784653</created>
+      <updated>1387842784653</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial mockup version">
+      <created>1387842806930</created>
+      <updated>1387842806930</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Templating home page and about page">
+      <created>1387864489618</created>
+      <updated>1387864489618</updated>
+    </task>
+    <task id="LOCAL-00008" summary="templating structure, naming convention and menu stabelized">
+      <created>1388056108974</created>
+      <updated>1388056108975</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Routes definition">
+      <created>1388066813334</created>
+      <updated>1388066813334</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial version of habitation list">
+      <created>1388088245207</created>
+      <updated>1388088245207</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Habitations list with pagination ready">
+      <created>1388145747591</created>
+      <updated>1388145747591</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Repository sync to prepare for merge">
+      <created>1388163354236</created>
+      <updated>1388163354236</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merged directories">
+      <created>1388164236865</created>
+      <updated>1388164236865</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Initial version of habitation details view">
+      <created>1388200158033</created>
+      <updated>1388200158033</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added propertied in detailed house view&#10;Initial version of buildingblock for googlemap view">
+      <created>1388240707685</created>
+      <updated>1388240707685</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Additional houses inserted&#10;Carousel images local&#10;Carousel reads from directory">
+      <created>1388320429395</created>
+      <updated>1388320429395</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added an alternative gallery designed by us.">
+      <created>1388376401604</created>
+      <updated>1388376401604</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added an alternative gallery designed by us.&#10;Minor change to JSON DB: thumbnails are now in a different directory and are present for every image. &lt;== TB, look out !!!">
+      <created>1388376598033</created>
+      <updated>1388376598033</updated>
+    </task>
+    <task id="LOCAL-00019" summary="back button on habitationDetailedViewG05.ejs&#10;changes to display behaviour for some empty fields on habitationDetailedViewG05.ejs &#10;minor corrections&#10;">
+      <created>1389265192841</created>
+      <updated>1389265192841</updated>
+    </task>
+    <task id="LOCAL-00020" summary="back button on habitationDetailedViewG05.ejs&#10;changes to display behaviour for some empty fields on habitationDetailedViewG05.ejs&#10;minor corrections&#10;">
+      <created>1389265227511</created>
+      <updated>1389265227511</updated>
+    </task>
+    <task id="LOCAL-00021" summary="More on About">
+      <created>1389433261321</created>
+      <updated>1389433261321</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Project organization and corrections:&#10;- package.json updated&#10;- Added bower module to support twitter/bootstrap installation&#10;- Added bower.json to install bootstrap (includes jquery)&#10;- Views layout libraries paths update&#10;- Added habitations images to Git&#10;- Added .gitignore&#10;- app.js static paths updated&#10;">
+      <created>1391080991017</created>
+      <updated>1391080991017</updated>
+    </task>
+    <task id="LOCAL-00023" summary="- habitationsDb: Data and data access split.">
+      <created>1391083124219</created>
+      <updated>1391083124219</updated>
+    </task>
+    <task id="LOCAL-00024" summary="- habitationsDb: Data and data access split - corrections.&#10;">
+      <created>1391085971488</created>
+      <updated>1391085971488</updated>
+    </task>
+    <task id="LOCAL-00025" summary="searchAjax working everywhere with updated css">
+      <created>1391113594517</created>
+      <updated>1391113594517</updated>
+    </task>
+    <task id="LOCAL-00026" summary="paginationAjax / habitationListViewAjax integrated and working">
+      <created>1391296814890</created>
+      <updated>1391296814890</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Webstorm setup alignement">
+      <created>1391346168685</created>
+      <updated>1391346168686</updated>
+    </task>
+    <task id="LOCAL-00028" summary="About data separated from interface">
+      <created>1391386055139</created>
+      <updated>1391386055139</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Habitations code / data separation">
+      <created>1391449776103</created>
+      <updated>1391449776103</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Styling, bug removal on habitation view">
+      <created>1391461342629</created>
+      <updated>1391461342629</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Code syncronization">
+      <created>1391725785924</created>
+      <updated>1391725785924</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Search mandatory requirements complete - except availability">
+      <created>1391876844452</created>
+      <updated>1391876844452</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Search mandatory requirements complete - except availability">
+      <created>1391888652298</created>
+      <updated>1391888652299</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Abstraction access to habitationsDb">
+      <created>1392056867149</created>
+      <updated>1392056867149</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Abstraction access to habitationsDb">
+      <created>1392058255289</created>
+      <updated>1392058255289</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Abstraction access to habitationsDb">
+      <created>1392059398886</created>
+      <updated>1392059398886</updated>
+    </task>
+    <task id="LOCAL-00037" summary="console.log removed">
+      <created>1392060774120</created>
+      <updated>1392060774120</updated>
+    </task>
+    <task id="LOCAL-00038" summary="console.log removed">
+      <created>1392060831054</created>
+      <updated>1392060831054</updated>
+    </task>
+    <task id="LOCAL-00039" summary="pagination fixes">
+      <created>1392063565485</created>
+      <updated>1392063565485</updated>
+    </task>
+    <task id="LOCAL-00040" summary="reservations on habitationsDb">
+      <created>1392064768389</created>
+      <updated>1392064768389</updated>
+    </task>
+    <task id="LOCAL-00041" summary="search by availability ready">
+      <created>1392069682464</created>
+      <updated>1392069682464</updated>
+    </task>
+    <task id="LOCAL-00042" summary="search by availability ready">
+      <created>1392070989174</created>
+      <updated>1392070989174</updated>
+    </task>
+    <task id="LOCAL-00043" summary="search completed">
+      <created>1392071874934</created>
+      <updated>1392071874934</updated>
+    </task>
+    <task id="LOCAL-00044" summary="first delivery">
+      <created>1392072026894</created>
+      <updated>1392072026894</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1592" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41908714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13791268" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14376996" sideWeight="0.7503201" order="0" side_tool="false" content_ui="combo" x="2448" y="46" width="224" height="987" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.07987552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1203125" sideWeight="0.3673257" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25239617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1156" y="96" width="442" height="803" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14211619" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32270408" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19897304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1203125" sideWeight="0.3673257" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1335045" sideWeight="0.7503201" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23170732" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="1156" y="7" width="442" height="892" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Added propertied in detailed house view&#10;Initial version of buildingblock for googlemap view" />
+    <MESSAGE value="Additional houses inserted&#10;Carousel images local&#10;Carousel reads from directory" />
+    <MESSAGE value="Added an alternative gallery designed by us." />
+    <MESSAGE value="Added an alternative gallery designed by us.&#10;Minor change to JSON DB: thumbnails are now in a different directory and are present for every image. &lt;== TB, look out !!!" />
+    <MESSAGE value="back button on habitationDetailedViewG05.ejs&#10;changes to display behaviour for some empty fields on habitationDetailedViewG05.ejs &#10;minor corrections&#10;" />
+    <MESSAGE value="back button on habitationDetailedViewG05.ejs&#10;changes to display behaviour for some empty fields on habitationDetailedViewG05.ejs&#10;minor corrections&#10;" />
+    <MESSAGE value="More on About" />
+    <MESSAGE value="Project organization and corrections:&#10;- package.json updated&#10;- Added bower module to support twitter/bootstrap installation&#10;- Added bower.json to install bootstrap (includes jquery)&#10;- Views layout libraries paths update&#10;- Added habitations images to Git&#10;- Added .gitignore&#10;- app.js static paths updated&#10;" />
+    <MESSAGE value="- habitationsDb: Data and data access split." />
+    <MESSAGE value="- habitationsDb: Data and data access split - corrections.&#10;" />
+    <MESSAGE value="searchAjax working everywhere with updated css" />
+    <MESSAGE value="paginationAjax / habitationListViewAjax integrated and working" />
+    <MESSAGE value="Webstorm setup alignement" />
+    <MESSAGE value="About data separated from interface" />
+    <MESSAGE value="Habitations code / data separation" />
+    <MESSAGE value="Styling, bug removal on habitation view" />
+    <MESSAGE value="Code syncronization" />
+    <MESSAGE value="Search mandatory requirements complete - except availability" />
+    <MESSAGE value="Abstraction access to habitationsDb" />
+    <MESSAGE value="console.log removed" />
+    <MESSAGE value="pagination fixes" />
+    <MESSAGE value="reservations on habitationsDb" />
+    <MESSAGE value="search by availability ready" />
+    <MESSAGE value="search completed" />
+    <MESSAGE value="first delivery" />
+    <option name="LAST_COMMIT_MESSAGE" value="first delivery" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/comments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="747" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/7/featured.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/7/Thumbs.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.0481927" vertical-offset="1530" max-vertical-offset="17833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/11/thumbnails/featured.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/habitationsListViewAJAX.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.85745615" vertical-offset="0" max-vertical-offset="1156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/accordionBibliotech.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/accordionDesign.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0372807" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/accordionTechnology.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/authors.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="925" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/carousel.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="852" selection-end="852" vertical-scroll-proportion="0.37280703" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/claim.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.09320176" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/display.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/gallery-blueImp.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.056198347" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/galleryG05.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/googleMap.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/highlights.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.2236842" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/maps-addHab.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.7763158" vertical-offset="6" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/maps-showLocationOnMap.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.09320176" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/habitationAddView.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="0" selection-start="7393" selection-end="7393" vertical-scroll-proportion="0.8881579" vertical-offset="3151" max-vertical-offset="4080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/habitationDetailedView.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="3106" selection-end="3106" vertical-scroll-proportion="0.9627193" vertical-offset="754" max-vertical-offset="1751" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/habitationDetailedViewG05.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.689693" vertical-offset="0" max-vertical-offset="6103" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/homeView.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.01864035" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="12" selection-start="795" selection-end="795" vertical-scroll-proportion="0.39144737" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/signin.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="70" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.50328946" vertical-offset="0" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/urlNotFound.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="73" selection-start="224" selection-end="224" vertical-scroll-proportion="0.1491228" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/g05util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="144" selection-end="144" vertical-scroll-proportion="0.054255318" vertical-offset="0" max-vertical-offset="940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/authorization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="23" selection-start="4222" selection-end="4222" vertical-scroll-proportion="0.7648936" vertical-offset="1831" max-vertical-offset="2771">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="236" selection-end="236" vertical-scroll-proportion="0.18085106" vertical-offset="0" max-vertical-offset="940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/habitationsListView.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="780" selection-end="780" vertical-scroll-proportion="0.43297586" vertical-offset="0" max-vertical-offset="746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/habitations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.5531088" vertical-offset="253" max-vertical-offset="4437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/paginationAJAX.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="4" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.29002625" vertical-offset="459" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/pagination.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="349" selection-end="349" vertical-scroll-proportion="0.10967742" vertical-offset="0" max-vertical-offset="775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/11/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/6/thumbnails/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/6/02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/6/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/4/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/3/02.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/habitations/3/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/accordionRequirements.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2160" selection-end="2160" vertical-scroll-proportion="0.8322368" vertical-offset="346" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/usersDb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/habitationsDb.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="16" selection-start="4340" selection-end="4340" vertical-scroll-proportion="0.1134594" vertical-offset="1479" max-vertical-offset="21216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/aboutView.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="911" selection-end="911" vertical-scroll-proportion="0.50328946" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/aboutDb.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="31" selection-start="4190" selection-end="4190" vertical-scroll-proportion="0.65406007" vertical-offset="1350" max-vertical-offset="4522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/buildingBlocks/search.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0189099" vertical-offset="0" max-vertical-offset="1819">
+          <folding>
+            <marker date="1392071153424" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1392071153424" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="2" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/habitationsDb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="285" column="0" selection-start="8780" selection-end="8780" vertical-scroll-proportion="0.20153551" vertical-offset="4740" max-vertical-offset="7480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

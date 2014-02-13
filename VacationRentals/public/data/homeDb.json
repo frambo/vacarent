@@ -1,0 +1,43 @@
+{
+  "xclaim": {
+    "header": "header",
+    "body": "body"
+  },
+  "carousel": [
+    {
+      "image": "/images/carousel/1200x480_Lisbon-by-nigth.jpg",
+      "header": "Schedule your next holidays with us",
+      "body": "Do you want to travel to Portugal but dont want to go through the hassle of finding plane tickets, cruises, tours and so forth on your own? Would you like professional help to ensure you’re getting the best deal? Would you like someone with lots of experience to help you avoid the typical tourist traps and discover somewhere special?"
+    },
+    {
+      "image": "/images/carousel/1200x480_city_4.jpg",
+      "header": "Where Are You Going?",
+      "body": ""
+    },
+    {
+      "image": "/images/carousel/1200x480_nightlife_6.jpg",
+      "header": "Designed for you",
+      "body": "Our holiday collection is customised. We’ve created getaways especially for families, couples, and those who like to get off the beaten track, to name just a few. That’s why 97 per cent of our customers rate us as good or excellent. Here are a few other reasons…"
+    }
+  ],
+  "highlights": [
+    {
+      "header": "Transportation",
+      "image": "/images/highlights/transports.jpg",
+      "body": "For your confort and safety we recommend you to use the following transportation operators in Portugal:",
+      "list": "<dl>\n<dt>Airports:</dt>\n<dd><a href='http://www.ana.pt' target='_blank'>ANA - Aeroportos de Portugal</a></dd>\n<dt>Airway:</dt>\n<dd><a href='http://www.tap.pt' target='_blank'>TAP Portugal</a></dd>\n<dd><a href='http://www.easyjet.com' target='_blank'>EasyJet</a></dd>\n<dt>Taxi:</dt>\n<dd><a href='http://www.retalis.pt' target='_blank'>Retalis</a></dd>\n<dd><a href='http://www.listaxi.pt' target='_blank'>Listaxi</a></dd>\n<dt>Rent-a-car:</dt>\n<dd><a href='http://www.hertz.com' target='_blank'>Hertz</a></dd>\n<dd><a href='http://www.avis.com' target='_blank'>Avis</a></dd>\n<dt>Others:</dt>\n<dd><a href='http://www.cp.pt' target='_blank'>Railways</a></dd>\n<dd><a href='http://www.carris.pt' target='_blank'>Bus</a></dd>\n<dd><a href='http://www.metro.pt' target='_blank'>Metro</a></dd>\n</dl>"
+    },
+    {
+      "header": "Health",
+      "image": "/images/highlights/health.jpg",
+      "body": "Learn actions you can take to stay healthy and safe on your trip. In case of need, we recommend the following institutions:",
+      "list": "<dl>\n<dt>In Lisboa:</dt>\n<dd><a href='http://www.chln.min-saude.pt/' target='_blank'>Centro hospitalar Lisboa Norte</a></dd>\n<dd><a href='http://www.chlo.min-saude.pt/' target='_blank'>Centro hospitalar Lisboa Ocidental</a></dd>\n<dd><a href='http://www.chlc.min-saude.pt/' target='_blank'>Centro hospitalar Lisboa Central</a></dd>\n<dt>In Porto:</dt>\n<dd></dd><a href='http://www.chporto.pt/' target='_blank'>Centro hospitalar do Porto</a></dd>\n<dt>In Coimbra:</dt>\n<dd><a href='http://www.chc.min-saude.pt/' target='_blank'>Centro hospitalar de Coimbra</a></dd>\n<dt>Other places:</dt>\n<dd>Go to Lisboa</dd>\n</dl>"
+    },
+    {
+      "header": "Weather",
+      "image": "/images/highlights/weather.jpg",
+      "body": "In mollis posuere mauris, non sollicitudin orci. Cras metus sem, semper non euismod at, faucibus vel erat. Nulla placerat lacus quis velit placerat semper. Nam varius sem quis mi viverra aliquet ac in elit. In ut quam dictum, euismod elit at, volutpat tellus. Duis sagittis, quam id ultrices scelerisque, enim quam fermentum risus, non mollis quam dui eu nibh. Nam eget gravida turpis, id laoreet augue",
+      "list": "<dl>\n<dt>Time and weather information:</dt>\n<dd><a href='http://www.timeanddate.com/' target='_blank'>TimeAndDate.com</a></dd></dl>"
+    }
+  ]
+}

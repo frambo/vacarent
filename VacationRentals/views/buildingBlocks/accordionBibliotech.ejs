@@ -1,0 +1,23 @@
+<div class="panel-group" id="accordionBibliotech">
+  <% for (var i = 0; i < bibliotech.length; i++) { %>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordionBibliotech" href="#collapseBibData<%= i %>">
+          <%= bibliotech[i].header %>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseBibData<%= i %>" class="panel-collapse collapse <%= i == 0 ? 'in' : '' %>">
+      <div class="panel-body">
+        <% var keys = Object.keys(bibliotech[i].body) %>
+        <ul>
+          <% keys.forEach(function(key) { %>
+          <li><strong><%= key %></strong>: <%= bibliotech[i].body[key] %></li>
+          <% }) %>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <% } %>
+</div>

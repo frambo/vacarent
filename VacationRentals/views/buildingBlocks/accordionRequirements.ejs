@@ -1,0 +1,72 @@
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseData1">
+          <strong><%= requirements.mandatory.name %></strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseData1" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <%= requirements.mandatory.header %>
+      </div>
+      <!-- Table -->
+      <table class="table">
+        <thead>
+        <tr>
+          <th>Requirement</th>
+          <th>Example</th>
+          <th>Completion</th>
+          <th>Comments</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% requirements.mandatory.list.forEach(function(entry) { %>
+        <tr>
+          <td><%= entry.requirement %></td>
+          <td><a href="<%= entry.example %>"><%= entry.example %></a></td>
+          <td><span class="badge pull-right"><%= entry.completion %></span></td>
+          <td><%= typeof entry.comments != 'undefined' ? entry.comments : '' %></td>
+        </tr>
+        <% }) %>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseData2">
+          <strong><%= requirements.optional.name %></strong>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseData2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p><%= requirements.optional.header %></p>
+      </div>
+      <!-- Table -->
+      <table class="table">
+        <thead>
+        <tr>
+          <th>Requirement</th>
+          <th>Example</th>
+          <th>Completion</th>
+          <th>Comments</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% requirements.optional.list.forEach(function(entry) { %>
+        <tr>
+          <td><%= entry.requirement %></td>
+          <td><a href="<%= entry.example %>"><%= entry.example %></a></td>
+          <td><span class="badge pull-right"><%= entry.completion %></span></td>
+          <td><%= typeof entry.comments != 'undefined' ? entry.comments : '' %></td>
+        </tr>
+        <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,354 @@
+<% include layout/pageTop %>
+
+<div class="container">
+  <% if(logged && (habitation.owner === logged.id)) { %>
+  <div class="span6 pull-right" style="text-align:left">
+    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#deleteModal">
+      <span class="glyphicon glyphicon-trash"></span>
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2"
+         aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel2">Confirm Deletion</h4>
+          </div>
+          <div class="modal-body">
+            <p>You are about to delete.</p>
+
+            <p>Do you want to proceed?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <a href="/habitations/<%= id %>/delete">
+              <button type="button" class="btn btn-danger">Delete</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% } %>
+  <span class="class=btn btn-warning btn-sm glyphicon glyphicon-arrow-left pointer" onclick="history.go(-1);"><span
+      class="sr-only">Return to browser previous page</span></span>
+</div>
+
+<div class="container">
+
+<h2><%= habitation.name %></h2>
+
+<% include buildingBlocks/galleryG05 %>
+
+<div class="gallery-images">
+  <!-- % var photoCount = habitation.photos.album.length; % -->
+  <% var photoCount = habitation.gallery.photoAlbum.length; %>
+  <!-- img class="gallery-image gallery-image-visible img-rounded" id="gallery1"
+       src="/images/habitations/< %= id % >/< %= habitation.photos.album[0] % >" title="< %= habitation.name % >"/ -->
+  <img class="gallery-image gallery-image-visible img-rounded" id="gallery1"
+       src="<%= habitation.gallery.featuredPhoto %>" title="<%= habitation.name %>"/>
+  <% for (var i = 1; i < photoCount; i++) { %>
+  <!-- img class="gallery-image gallery-image-hidden img-rounded" id="gallery< %= i + 1 % >"
+       src="/images/habitations/< %= id % >/< %= habitation.photos.album[i] % >" title="< %= habitation.name % >"/ -->
+  <img class="gallery-image gallery-image-hidden img-rounded" id="gallery<%= i + 1 %>"
+       src="<%= habitation.gallery.photoAlbum[i] %>" title="<%= habitation.name %>"/>
+  <% } %>
+</div>
+
+<div class="gallery-thumbnails">
+  <% for (var j = 0; j < photoCount; j++) { %>
+  <!-- img onclick="present('gallery< %= j + 1 % >')"
+       src="/images/habitations/< %= id % >/thumbnails/< %= habitation.photos.album[j] % >" title="< %= habitation.name % >"
+       height="50px"/ -->
+  <img onclick="present('gallery<%= j + 1 %>')"
+       src="<%= habitation.gallery.photoThumbnailAlbum[j] %>" title="<%= habitation.name %>"
+       height="50px"/>
+  <% } %>
+</div>
+
+<div class="well">
+  <div class="">
+    <p><%- habitation.description %></p>
+  </div>
+</div>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Weekly fee</td>
+    <td>
+      <% if(habitation.weeklyFee) { %>
+      <%= habitation.weeklyFee %> €
+      <% } else { %>
+      N.D.
+      <% } %>
+    </td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>
+      <%= habitation.location.local %>
+      <% if ( habitation.location.gps.latitude && habitation.location.gps.longitude ) { %>
+      (
+      <%= habitation.location.gps.latitude %>
+      ,
+      <%= habitation.location.gps.longitude %>
+      )
+
+      <button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#map-modal">Map</button>
+      <!-- Modal -->
+      <div class="modal fade bs-modal-lg" id="map-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+           aria-hidden="true">
+        <div class="modal-dialog bs-modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Map</h4>
+            </div>
+            <div class="modal-body">
+              <div id="map-canvas" class="element" style="height:500px;"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% } %>
+    </td>
+  </tr>
+  <tr>
+    <td>Capacity</td>
+    <td><%= habitation.characteristics.capacity %> persons</td>
+  </tr>
+  <tr>
+    <td>Area</td>
+    <td><%= habitation.characteristics.area %> m<sup>2</sup></td>
+  </tr>
+  <tr>
+    <td>Rooms</td>
+    <td><%= habitation.characteristics.rooms %></td>
+  </tr>
+  <tr>
+    <td>Bedrooms</td>
+    <td><%= habitation.characteristics.bedrooms %></td>
+  </tr>
+  <% if(habitation.characteristics.amenities) { %>
+  <tr>
+    <td>Amenities</td>
+    <td><%= habitation.characteristics.amenities %></td>
+  </tr>
+  <% } %>
+  <% if(habitation.characteristics.availableExtras ) { %>
+  <tr>
+    <td>Available extras</td>
+    <td><%= habitation.characteristics.availableExtras %></td>
+  </tr>
+  <% } %>
+  <% if(habitation.characteristics.permissions) { %>
+  <tr>
+    <td>Permissions</td>
+    <td><%= habitation.characteristics.permissions %></td>
+  </tr>
+  <% } %>
+  </tbody>
+</table>
+
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading"><strong>Comments</strong></div>
+
+  <div class="panel-body">
+    <p>Comments are unmanaged, if you notice any rude or inappropriate language, please advise.</p>
+  </div>
+
+  <!-- Table -->
+  <table class="table" id="tableComments">
+    <thead>
+    <tr>
+      <th>User</th>
+      <th>Date</th>
+      <th>Stars</th>
+      <th>Comment</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% habitation.comments.forEach(function(comment) { %>
+    <tr>
+      <td><%= comment.author %></td>
+      <td><%= comment.date %></td>
+      <td>
+          <span class="sr-only">
+            <% comment.points %>
+          </span>
+        <% for (var count = 0; count < comment.points; count++) { %>
+        <span class="glyphicon glyphicon-star"></span>
+        <% }; %>
+        <% for (var count = comment.points - 1; count < 4; count++) { %>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        <% }; %>
+      </td>
+      <td><%= comment.comment %></td>
+    </tr>
+    <% }) %>
+    <% if (logged) { %>
+    <td/>
+    <td/>
+    <td/>
+    <td>
+      <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#newComment-modal">Add Comment</button>
+    </td>
+    <% } %>
+    </tbody>
+
+    <!-- Modal -->
+    <div class="modal fade bs-modal-lg" id="newComment-modal" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog bs-modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Add Commend</h4>
+          </div>
+          <div class="modal-body">
+            <form class="contact">
+              <div class="modal-body">
+                <div class="form-group" id="nameDiv">
+                  <label for="nameToShow">Name to show</label>
+                  <input type="text" class="form-control" id="nameToShow" name="nameToShow">
+                  </select>
+                  <div class="form-group" id="starDiv">
+                    <label for="stars">Stars</label>
+                    <select class="form-control" id="stars" name="stars">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+
+                    <div class="form-group" id="cmdDiv">
+                      <label for="description">Comment</label>
+                      <textarea class="form-control" rows="3" id="comment" name="comment"
+                                placeholder="Add here your comment"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-success" id="submitCommentButton">Submit</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function submitComment() {
+        var cmt = encodeURIComponent(document.getElementById("comment").value);
+        var strs = encodeURIComponent(document.getElementById("stars").value);
+        var nametshow = encodeURIComponent(document.getElementById("nameToShow").value);
+
+        document.getElementById("nameDiv").className = "form-group has-success"
+        document.getElementById("cmdDiv").className = "form-group has-success"
+
+        if (cmt.length == 0 || nametshow.length == 0) {
+          if (cmt.length == 0) {
+            document.getElementById("cmdDiv").className = "form-group has-error has-feedback"
+          }
+          if (nametshow.length == 0) {
+            document.getElementById("nameDiv").className = "form-group has-error has-feedback"
+          }
+          return false;
+        }
+
+
+        if (window.XMLHttpRequest) {
+          xmlhttp = new XMLHttpRequest();
+        }
+        else {
+          xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function () {
+          if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            $('#newComment-modal').modal('hide')
+            AddcommentTableLine(JSON.parse(xmlhttp.responseText));
+          }
+          else {
+          }
+        }
+
+        var parameters = "name=" + nametshow + "&stars=" + strs + "&comment=" + cmt;
+        xmlhttp.open("POST", "/habitation/<%= id %>/comment/", true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xmlhttp.send(parameters);
+      }
+
+      function AddcommentTableLine(comment) {
+
+
+        var table = document.getElementById("tableComments");
+        var rowCount = table.rows.length;
+
+        var row = table.insertRow(rowCount - 1);
+
+        var cell1 = row.insertCell(0);
+        cell1.innerHTML = comment.author;
+        var cell2 = row.insertCell(1);
+        cell2.innerHTML = comment.date;
+        var cell3 = row.insertCell(2);
+        cell3.innerHTML = '<span class="sr-only">' + comment.points + '</span>' + stars(0 + comment.points);
+        var cell4 = row.insertCell(3);
+        cell4.innerHTML = comment.comment;
+
+        row.innerHTML = '<td>' + comment.author + '</td>' +
+          '<td>' + comment.date + '</td>' +
+          '<td><span class="sr-only">' + comment.points + '</span>' + stars(0 + comment.points) + '</td>' +
+          '<td>' + comment.comment + '</td>';
+
+        function stars(number) {
+          var res = '';
+          for (var count = 0; count < number; count++) {
+            res += '<span class="glyphicon glyphicon-star"></span>';
+          }
+          for (var count = number; count < 5; count++) {
+            res += '<span class="glyphicon glyphicon-star-empty"></span>';
+          }
+          return res;
+        }
+      }
+
+      window.addEventListener("load",
+        function () {
+          document.getElementById("submitCommentButton").addEventListener('click', submitComment);
+        }, false);
+    </script>
+  </table>
+</div>
+</div>
+
+<% include layout/pageBottom %>
+<% if ( habitation.location.gps.latitude && habitation.location.gps.longitude ) { %>
+<% include buildingBlocks/maps-showLocationOnMap %>
+<% } %>
+
+<script>
+  <!--
+  modal
+  is
+  now
+  availabe
+  from
+  link in about -->
+  $(document).ready(function () {
+    var hash = window.location.hash;
+    if (hash == "#AddComment") {
+      $('#newComment-modal').modal();
+    }
+  });
+</script>

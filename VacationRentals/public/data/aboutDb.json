@@ -1,0 +1,261 @@
+{
+  "group": "Grupo 05",
+  "users": [
+    {
+      "name": "António Borba",
+      "fullName": "António Borba da Silva",
+      "nr": 22908,
+      "emailIsel": "a22908@alunos.isel.pt",
+      "emailIpl": "22908@alunos.isel.ipl.pt",
+      "emailPersonel": "antonio.borba@gmail.com",
+      "link": "http://pt.linkedin.com/in/aborba/",
+      "gravatarHash": "67e5dafa0fdbc667fe69d25ee8ffc0b5"
+    },
+    {
+      "name": "Carlos Marques",
+      "fullName": "Carlos M Marques",
+      "nr": 25993,
+      "emailIsel": "a25993@alunos.isel.pt",
+      "emailIpl": "25993@alunos.isel.ipl.pt",
+      "emailPersonel": "carlosmmarques@gmail.com",
+      "link": "https://plus.google.com/102455324412939633792/about",
+      "gravatarHash": "ca50d82613f43bf8b07ee946af5b6a5d"
+    },
+    {
+      "name": "Tiago Brito",
+      "fullName": "Tiago Almeida e Brito",
+      "nr": 37535,
+      "emailIsel": "a37535@alunos.isel.pt",
+      "emailIpl": "37535@alunos.isel.ipl.pt",
+      "emailPersonel": "tiagoabrito@gmail.com",
+      "link": "http://pt.linkedin.com/in/tiagoabrito/",
+      "gravatarHash": "4a082f1350f35159bb586337f3de2a33"
+    }
+  ],
+  "requirements": {
+    "mandatory": {
+      "name": "Funcionalidades obrigatórias",
+      "header": "A aplicação a desenvolver deve suportar as seguintes funcionalidades obrigatórias (sem qualquer ordem):",
+      "list": [
+        {
+          "requirement": "Visualização paginada da lista de imóveis (com informação resumida - sem detalhe)",
+          "example": "/habitations/1",
+          "completion": "100%"
+        },
+        {
+          "requirement": "Visualizar detalhes do imóvel",
+          "example": "/habitation/1",
+          "completion": "100%"
+        },
+        {
+          "requirement": "Adicionar uma apreciação (utilizando Ajax)",
+          "example": "/habitation/1#AddComment",
+          "completion": "100%"
+        },
+        {
+          "requirement": "Adicionar um imóvel",
+          "example": "/habitation/add",
+          "completion": "100%"
+        },
+        {
+          "requirement": "Pesquisar imóvel por: nome",
+          "example": "http://localhost:3000/search?name=Casa+Agatha",
+          "completion": "100%"
+        },
+        {
+          "requirement": "Pesquisar imóvel por: localização",
+          "example": "http://localhost:3000/search?location=Algarve,%20Praia%20do%20Burgau",
+          "completion": "100%"
+        },
+        {
+          "requirement": "Pesquisar imóvel por: intervalo de preço",
+          "example": "http://localhost:3000/search?weeklyFee=600-1000",
+          "completion": "100%"
+        },
+        {
+          "requirement": "Pesquisar imóvel por: disponibilidade",
+          "example": "http://localhost:3000/search?availability=2014w01-2014w04",
+          "completion": "100%"
+        },
+        {
+          "requirement": "Pesquisar imóvel por: capacidade",
+          "example": "http://localhost:3000/search?capacity=6",
+          "completion": "100%"
+        }
+      ]
+    },
+    "optional": {
+      "name": "Funcionalidades opcionais",
+      "header": "A aplicação pode ser enriquecida e valorizada suportando as seguintes funcionalidades opcionais (sem nenhuma ordem)",
+      "list": [
+        {
+          "requirement": "(1 valor) Paginação usando Ajax",
+          "example": "/habitations",
+          "completion": "100%"
+        },
+        {
+          "requirement": "(1 valor) Visualização em mapa da localização do imóvel",
+          "example": "/habitation/1",
+          "completion": "100%"
+        },
+        {
+          "requirement": "(1 valor) Visualização em mapa da localização dos vários imóveis presentes numa listagem",
+          "example": "/habitations",
+          "completion": "100%",
+          "comments": "Scroll to the bottom of the page"
+        },
+        {
+          "requirement": "(2 valores) Processo de realização e aceitação de reservas (a definir por cada grupo)",
+          "example": "",
+          "completion": "0%"
+        },
+        {
+          "requirement": "(1 valor) Funcionalidades que requerem utilizadores (autenticação na aplicação): Inserção de imóveis por um utilizador",
+          "example": "/habitation/add",
+          "completion": "100%",
+          "comments": "Requires login; tiagoabrito@gmail.com:tiago | abs@ggl.pt:antonio"
+        },
+        {
+          "requirement": "(1 valor) Funcionalidades que requerem utilizadores (autenticação na aplicação): Visualização paginada dos imóveis publicados pelo utilizador",
+          "example": "/myHabs",
+          "completion": "100%",
+          "comments": "Requires login; ex.: tiagoabrito@gmail.com:tiago"
+        },
+        {
+          "requirement": "(1 valor) Funcionalidades que requerem utilizadores (autenticação na aplicação): Visualização de imóveis reservados pelo utilizador",
+          "example": "",
+          "completion": "0%"
+        }
+      ]
+    }
+  },
+  "tools": [
+    {
+      "header": "Node.js",
+      "body": [
+        "<p>The project specs allowed us to choose between Node.js and ASP.Net MVC. We do recognize that both technologies are well suited for the project, but we have selected Node for the following reasons:</p>\n",
+        "<ul>\n",
+        "<li>From a licensing standpoint, we wanted to make sure we would be compliant with all the producers legal terms; We opted to go with a coherent licensing schema and for that we opted to use modules licensed under the MIT License (MIT) defined in the Open Source Initiative. The software in this site is also licensed under the <a href='http://opensource.org/licenses/MIT' target='_blank' >The MIT License (MIT)</a>; The contents of this site are under a <a href='http://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons Attribution 3.0 License</a></li>\n",
+        "<li>It is a relatively new language and we had no previous experience with, but it is being adopted by the developers community at a fast pace, and we thought this would be a unique opportunity to gain experience with it.</li>\n",
+        "<li>A large amount of time of this lecture was spent around javascript and node, and we were positively influenced by the enthusiasm of the teacher.</li>\n",
+        "<li>Inside the group, and irrespective of being technology agnostic, we all share a biasing towards the open source model, not only because we find that Internet world has its own laws of survival of the fittest, which leads us to use the fittest technologies, but most of all due to the fact that, with open source, we keep following a path where it is natural to avoid being locked into a single technology supplier software stack.</li>\n",
+        "<li>From a technology stand point, we found interesting using a technology designed for asynchronous calls, not only because we recognize that for Internet scale applications that is the way to go, but also because we recognize that we were not formatted to think according to this paradigm and that it is a must to be able to recognize the situations where this type of techniques are applicable, and to adopt it accordingly.</li>\n",
+        "<li>At last, javascript in the client browser is paramount. It is great to be able to use the same technology both in the client side and in the server side.</li>\n",
+        "</ul>\n"
+      ]
+    },
+    {
+      "header": "HTML 5",
+      "body": [
+        "<p>HTML 5 is the most recent version of the standard. The latest versions of the main browsers, they all have at least partial support for HTML 5. Anyway, apart from all the enhancements introduced, it specifies in detail and unifies aspects of the standard that previously were interpreted and implemented differently by the different vendors.</p>\n",
+        "<p>In order to check for possible implementation singularities of the browsers, we are regularly checking the implementation behaviour in the latest versions of:</p>\n",
+        "<ul>\n",
+        "<li>Google Chrome (Version 32.0)</li>\n",
+        "<li>Microsoft Internet Explorer (Version 11.0) and</li>\n",
+        "<li>Mozilla Firefox (Version 26.0)</li>\n",
+        "</ul>\n"
+      ]
+    },
+    {
+      "header": "Presentation and design: Bootstrap 3",
+      "body": [
+        "<p>Bootstrap from Twitter, is a prebuilt CSS library making use of javascript and jQuery, providing a structured approach to the application decoration, and providing solutions for a number of differences among browser implementations and hardware platforms, for example by providing a responsive interface.</p>\n",
+        "<p>Using Bootstrap brings the additional advantage of providing a familiar look and feel to a new user of the application, and providing a smooth transition to other applications that also uses this library, such as Thoth!</p>\n"
+      ]
+    },
+    {
+      "header": "Javascript",
+      "body": [
+        "<p>So far, we have given limited use to javascript in the client side. Basically we are using including in AJAX for search and paging, to implement the gallery that presents the habitations photos, and to have the back button above the photos gallery, that returns to the previous page without loosing user usage context. Bootstrap, providing the fancy functionality, as in the accordion you are reading.</p>\n",
+        "<p>Additionally, Javascript is used by Bootstrap, providing the fancy functionality, as in the accordeon you are reading, but for that we haven\"t contributed nothing, only collected the benefis.</p>\n"
+      ]
+    },
+    {
+      "header": "jQuery",
+      "body": [
+        "<p>As with javascript, we have not given use to jQuery, it is used by Bootstrap, providing the fancy functionality, as in the accordeon you are reading.</p>\n"
+      ]
+    },
+    {
+      "header": "Git / Github",
+      "body": [
+        "<p>A version control system is the core platform for shared development. In the current project we have used Git, a versatile platform that none of us have had previous experience with.</p>\n"
+      ]
+    },
+    {
+      "header": "JetBrain\"s WebStorm and Sublime Text",
+      "body": [
+        "<p>For the development environment, we decided to JetBrain\"s WebStorm in addition to the more traditional approach of a good text editor - Sublime Text in this case, plus node and the other non-itegrated tools (node, mocha, git, etc.).</p>\n"
+      ]
+    },
+    {
+      "header": "Other technologies / services",
+      "body": [
+        "<p>In addition to the technologies referred above, we have also used the following technologies and/or services build the site.</p>\n",
+        "<dl>\n",
+        "<dt>lipsum.com</dt>\n",
+        "<dd>This service was used to provide placeholder text for several pages.</dd>\n",
+        "<dt>lorempixel.com</dt>\n",
+        "<dd>This service was used to provide placeholder pictures for several pages.</dd>\n",
+        "</dl>\n"
+      ]
+    }
+  ],
+  "design": [
+    {
+      "header": "MVC",
+      "body": [
+        "<p>Although Express doesnt provide a full MVC approach, it already separates the views from the controller, thus providing the essential degree of separation to maintain these two functional areas separated. The views are kept in the \"views\" folder while the \"controllers\" are maintained in the \"routers\" folder.</p>\n",
+        "<p>We felt need to go one step further and to individualize the \"model\" as well. For that we created the folder \"model\" where we keep all the model related software. The data itself is maintained in to additional separate folders.</p>\n",
+        "<dl>\n",
+        "<dt>Database</dt>\n",
+        "<dd>The site data is maintained in a json file under the \"/data\" folder.</dd>\n",
+        "<dt>Images</dt>\n",
+        "<dd>The habitation static images are maintained in a folder under the \"/public\" folder, which is where Express expects to find static information to serve.</dd>\n",
+        "</dl>"
+      ]
+    },
+    {
+      "header": "REST",
+      "body": [
+        "<p>In order to organize the application workflow, in are considering a RESTful implementation to the database layer. This approach would let us provide interfaces to the outside world, and to make changes to the presentation layer without compromising the remaining implementation.</p>\n"
+      ]
+    }
+  ],
+  "bibliotech": [
+    {
+      "header": "Twitter Bootstrap Web Development How-To",
+      "body": {
+        "Subtitle": "A hands-on introduction to building websites with Twitter Bootstraps powerful front-end development framework",
+        "Author": "David Cochran",
+        "Editor": "Packt Publishing",
+        "ISBN": "978-1-84951-882-6",
+        "First publication": "November 2012"
+      }
+    },
+    {
+      "header": "Learning Node",
+      "body": {
+        "Subtitle": "Moving to the server-side",
+        "Author": "Shelley Powers",
+        "Editor": "OReilly"
+      }
+    },
+    {
+      "header": "Jump Start Node",
+      "body": {
+        "Subtitle": "Get up to Speed With Node.JS in a Weekend",
+        "Author": "Don Nguyen",
+        "Editor": "Sitepoint"
+      }
+    },
+    {
+      "header": "Professional Node.js",
+      "body": {
+        "Subtitle": "Building Javascript Based Scalable Software",
+        "Author": "Pedro Teixeira",
+        "Editor": "Wrox"
+      }
+    }
+  ]
+}

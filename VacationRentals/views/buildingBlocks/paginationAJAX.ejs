@@ -1,0 +1,101 @@
+<script>
+
+  function switchPage(pageNr, pagerPlaceholder, habitationPlaceholder) {
+    if (window.XMLHttpRequest) {
+      xmlhttp = new XMLHttpRequest();
+    }
+    else {
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        var pager = presentPager(xmlhttp.responseText, pagerPlaceholder, habitationPlaceholder);
+        var divs = document.getElementsByTagName('div');
+        for (var i = 0; i < divs.length; i++) {
+          if ((' ' + divs[i].className + ' ').indexOf(' ' + pagerPlaceholder + ' ') != -1) {
+            divs[i].innerHTML = pager;
+          }
+        }
+
+        document.getElementById(habitationPlaceholder).innerHTML = presentPayload(xmlhttp.responseText);
+        map.fitBounds(mapUtils.bounds);
+      }
+    }
+    xmlhttp.open("GET", "/habitationsAjax?page=" + pageNr, true);
+    xmlhttp.send();
+  }
+
+  function removeMarkers() {
+    for (var i = 0; i < mapUtils.markers.length; i++) {
+      mapUtils.markers[i].setMap(null);
+    }
+    mapUtils.markers = [];
+    mapUtils.bounds = new google.maps.LatLngBounds();
+  }
+
+  function presentPager(payloadJson, pagerPlaceholder, habitationPlaceholder) {
+
+    removeMarkers();
+
+    var pageInfo = JSON.parse(payloadJson).pageInfo;
+    var currentPage = parseInt(pageInfo.current);
+    var totalPages = parseInt(pageInfo.total);
+    var pager = '<ul class="pagination">\n';
+    if (currentPage == 1) {
+      pager += '  <li class="disabled"><a href="javascript:void(0)">&laquo;</a></li>\n';
+    } else {
+      pager += '  <li><a href="javascript:void(0)" onclick="switchPage(' + (currentPage - 1) + ', \'' + pagerPlaceholder + '\', \'' + habitationPlaceholder + '\')">&laquo;</a></li>\n';
+    }
+    for (var i = 0; i < totalPages; i++) {
+      pager += '  <li class="' + (currentPage == i + 1 ? 'active' : '') + '"><a href="javascript:void(0)" onclick="switchPage(\'' + (i + 1) + '\', \'' + pagerPlaceholder + '\', \'' + habitationPlaceholder + '\')">' + (i + 1) + '</a></li>\n';
+    }
+    if (currentPage == totalPages) {
+      pager += '  <li class="disabled"><a href="javascript:void(0)">&raquo;</a></li>\n';
+    } else {
+      pager += '  <li><a href="javascript:void(0)" onclick="switchPage(\'' + (currentPage + 1) + '\', \'' + pagerPlaceholder + '\', \'' + habitationPlaceholder + '\')">&raquo;</a></li>\n';
+    }
+    pager += '</ul>\n';
+    return pager;
+  }
+
+  function presentPayload(payloadJson) {
+    var payloadList = JSON.parse(payloadJson).data;
+    var payload = '';
+    payloadList.forEach(function (item) {
+      var tmp = '<article class="panel panel-default">'
+        + '  <div class="panel-heading">\n'
+        + '    <a href="' + item.detailsPage + '"><h3 class="panel-title">' + item.name + ' / ' + item.location.local + '</h3></a>\n'
+        + '  </div>\n'
+        + '  <div class="panel-body">\n'
+        + '    <p><a href="' + item.detailsPage + '"><img src="' + item.gallery.featuredPhotoThumbnail + '" height="80px" class="img-rounded" style="float:left; margin-right:12px"/></a>' + item.summary + '</p>\n'
+        + '  </div>\n'
+        + '</article>\n';
+      payload += tmp;
+
+      var lat = item.location.gps.latitude;
+      var lgt = item.location.gps.longitude;
+      if (lat && lgt) {
+        var contentString = '<div id="content">' + tmp + '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString,
+          maxWidth: 300
+        });
+
+        var myLatlng = new google.maps.LatLng(lat, lgt);
+        var marker = new google.maps.Marker({position: myLatlng, map: map, title: 'Hello PLUTO!'});
+
+        google.maps.event.addListener(marker, 'click', function () {
+          infowindow.open(map, marker);
+        });
+        mapUtils.markers.push(marker);
+        mapUtils.bounds.extend(myLatlng);
+
+
+      }
+
+    });
+    return payload;
+  }
+
+</script>

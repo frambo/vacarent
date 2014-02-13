@@ -1,0 +1,20 @@
+<div class="row">
+  <% var ucols = ["col-md-12", "col-md-6", "col-md-4", "col-md-3"] %>
+  <% highlights.forEach(function(highlight) { %>
+  <div class=<%= ucols[highlights.length - 1] %>>
+
+    <h3><%= highlight.header %></h3>
+
+    <p><img class="img-circle" style="float:left; margin:10px" src="<%= highlight.image %>"/>
+      <%= highlight.body %></p>
+
+    <% if(highlight.list) { %>
+    <div style="clear: left">
+      <%- highlight.list %>
+    </div>
+    <% } %>
+
+    <!-- <p><a class="btn" href="/">More »</a></p> -->
+  </div>
+  <% }) %>
+</div>

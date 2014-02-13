@@ -1,0 +1,17 @@
+{
+  "name": "VacaRent", "version": "0.0.3", "private": true, "scripts": {
+  "start": "node app.js"
+  }, "dependencies": {
+    "express": "~3.4.7",
+    "ejs": "~0.8.5",
+    "connect-flash": "~0.1.1",
+    "gravatar": "~1.0.6",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6",
+    "passport-facebook": "",
+    "passport-google": "",
+    "underscore": "~1.5.2",
+    "mkdirp": "~0.3.5",
+    "dateformat" : ""
+  }
+}

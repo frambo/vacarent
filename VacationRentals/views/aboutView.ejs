@@ -1,0 +1,30 @@
+<% include layout/pageTop %>
+
+<div class="container">
+  <h2>Our group: <%= group %></h2>
+  <% include buildingBlocks/authors %>
+
+  <h2>Project completion checklist</h2>
+
+  <p>The following checklist identifies the both mandatory an optional project requirements together with it's
+    completion
+    status.</p>
+  <% include buildingBlocks/accordionRequirements %>
+
+  <h2>Technology</h2>
+
+  <p>The following list presents the choices and the technologies used in this project.</p>
+  <% include buildingBlocks/accordionTechnology %>
+
+  <h2>Application design</h2>
+
+  <p>The following list presents the project design with respect to architecture and design patterns.</p>
+  <% include buildingBlocks/accordionDesign %>
+
+  <h2>Bibliography</h2>
+
+  <p>The following list presents the bibliography we used to support our study for the development of this site.</p>
+  <% include buildingBlocks/accordionBibliotech %>
+</div>
+
+<% include layout/pageBottom %>

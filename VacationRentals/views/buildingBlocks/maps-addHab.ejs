@@ -1,0 +1,49 @@
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnC6hNZLrTnSJJ3b8I8hyZXNO9j8jSNo8&sensor=false&libraries=weather"></script>
+
+<script>
+
+  // Enable the visual refresh
+  google.maps.visualRefresh = true;
+  var latitudeTextBox = $("#latitude");
+  var longitudeTextBox = $("#longitude");
+  var map;
+  function initialize() {
+    var myCenter = new google.maps.LatLng(44.324578, -15.2577417)
+    var mapOptions = {
+      zoom: 6,
+      center: myCenter
+    };
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+
+    var weatherLayer = new google.maps.weather.WeatherLayer({
+      temperatureUnits: google.maps.weather.TemperatureUnit.CELSIUS
+    });
+    weatherLayer.setMap(map);
+
+    var cloudLayer = new google.maps.weather.CloudLayer();
+    cloudLayer.setMap(map);
+
+    var marker = new google.maps.Marker({
+      draggable: true,
+      position: new google.maps.LatLng(41.324578, -8.2577417),
+      map: map,
+      title: 'Set your Habitation Location'
+    });
+
+    google.maps.event.addListener(marker, 'dragend', function () {
+      var curLatLng = marker.getPosition();
+      latitudeTextBox.val(curLatLng.lat());
+      longitudeTextBox.val(curLatLng.lng());
+    });
+
+
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  $('#location').on('shown.bs.collapse', function () {
+    google.maps.event.trigger(map, "resize");
+  })
+
+</script>

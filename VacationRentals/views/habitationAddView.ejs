@@ -1,0 +1,233 @@
+<% include layout/pageTop %>
+
+<div class='container'>
+
+<h2>Add Habitation</h2>
+
+<form class="form" method="POST" enctype="multipart/form-data">
+<div class="panel-group" id="accordion">
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#info">
+        Habitation Information
+      </a>
+    </h4>
+  </div>
+  <div id="info" class="panel-collapse colapse in">
+    <div class="panel-body">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Habitation Name">
+      </div>
+      <div class="form-group">
+        <label for="summary">Summary</label>
+        <input type="text" class="form-control" id="summary" name="summary">
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" rows="5" id="description" name="description"
+                  placeholder="Add here a description of your house"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="featuredPhoto">Featured Photo</label>
+        <input type="file" class="form-control" id="featuredPhoto" name="featuredPhoto">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#pictures">
+        Pictures
+      </a>
+    </h4>
+  </div>
+  <div id="pictures" class="panel-collapse collapse">
+    <div class="panel-body">
+
+      <% for (i = 1;i <= 10;i++) { %>
+      <div class="row">
+        <div class="form-group">
+          <label class="col-sm-2" for="photoAlbum<%= i %>">Picture <%= i %></label>
+
+          <div class="col-sm-4">
+            <input type="file" class="form-control" id="photoAlbum<%= i %>" name="photoAlbum<%= i %>">
+          </div>
+        </div>
+      </div>
+      <% } %>
+
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#location">
+        Location
+      </a>
+    </h4>
+  </div>
+  <div id="location" class="panel-collapse collapse">
+    <div class="panel-body">
+      <div class="form-group">
+        <label for="local">Local</label>
+        <input type="text" class="form-control" id="local" name="local">
+      </div>
+      <div class="form-group">
+        <label for="latitude">Latitude</label>
+        <input type="number" step="any" class="form-control" id="latitude" name="latitude">
+      </div>
+      <div class="form-group">
+        <label for="longitude">Longitude</label>
+        <input type="number" step="any" class="form-control" id="longitude" name="longitude">
+      </div>
+      <div id="map-canvas" class="element" style="height:500px;"></div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#specs">
+        Specification
+      </a>
+    </h4>
+  </div>
+  <div id="specs" class="panel-collapse collapse">
+    <div class="panel-body">
+      <div class="form-group col-md-6">
+        <label for="capacity">Capacity</label>
+        <select class="form-control" id="capacity" name="capacity">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>>10</option>
+        </select>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="area">Area</label>
+        <select class="form-control" id="area" name="area">
+          <option> >50</option>
+          <option> 50 - 74</option>
+          <option> 75 - 99</option>
+          <option> 100 -149</option>
+          <option> 150 -200</option>
+          <option>>200</option>
+        </select>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="rooms">Rooms</label>
+        <select class="form-control" id="rooms" name="rooms">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>>6</option>
+        </select>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="bedrooms">Bedrooms</label>
+        <select class="form-control" id="bedrooms" name="bedrooms">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>>6</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#facilities">
+        Facilities
+      </a>
+    </h4>
+  </div>
+  <div id="facilities" class="panel-collapse collapse">
+    <div class="panel-body">
+      <div class="form-group">
+        <input type="checkbox" value="" id="disabled" name="disabledFacilities">
+        <label for="disabled">Disabled facilities</label>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" value="" id="pets" name="pets">
+        <label for="pets">Pets Allowed</label>
+
+      </div>
+
+      <div class="form-group">
+        <label for="amenities">Amenities</label>
+        <textarea class="form-control" rows="5" id="amenities" name="amenities"
+                  placeholder="Outside shower, Gas Hob, TV Satelitte, BBQ, Jacuzzi, Stereo, Car parking..."></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#priceAndAvailability">
+        Price And Availability
+      </a>
+    </h4>
+  </div>
+  <div id="priceAndAvailability" class="panel-collapse collapse">
+    <div class="panel-body">
+      <div class="row">
+        <div class="form-group col-md-6">
+          <label for="weeklyFee">Weekly Fee</label>
+
+          <div class="input-group">
+            <span class="input-group-addon">€</span>
+            <input type="number" class="form-control" id="weeklyFee" name="weeklyFee">
+            <span class="input-group-addon">.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="priceAndAvailability">Availability</label>
+        <textarea class="form-control" rows="5" id="availability" name="availability"
+                  placeholder="Weeks available 2014: 1, 2, 3..."></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a data-toggle="collapse" data-parent="#accordion" href="#submitaccordion">
+        Submission
+      </a>
+    </h4>
+  </div>
+  <div id="submitaccordion" class="panel-collapse collapse">
+    <div class="panel-body">
+      <button type="submit" class="btn btn-success btn-lg">Submit</button>
+    </div>
+  </div>
+</div>
+
+</div>
+</form>
+</div>
+
+<% include layout/pageBottom %>
+<% include buildingBlocks/maps-addHab %>

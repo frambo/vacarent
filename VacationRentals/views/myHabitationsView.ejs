@@ -1,0 +1,61 @@
+<% include /layout/pageTop %>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12'>
+      <h2>List of my habitations</h2>
+
+      <% for (var cursor = 0; cursor < habitationsList.length; cursor++) { %>
+      <article class="panel panel-default">
+        <div class="panel-heading">
+          <a href="<%= habitationDetailUrlPrefix + habitationsList[cursor].id %>"><h3
+              class="panel-title"><%= habitationsList[cursor].name %>
+              / <%= habitationsList[cursor].location.local %></h3></a>
+        </div>
+        <div class="panel-body">
+          <p><a href="<%= habitationsList[cursor].detailsPage %>"><img
+                src="<%= habitationsList[cursor].gallery.featuredPhotoThumbnail %>"
+                height="80px" class="img-rounded" style="float:left; margin-right:12px"/></a>
+            <%= habitationsList[cursor].summary %></p>
+                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal<%= habitationsList[cursor].id %>">
+            <span class="glyphicon glyphicon-trash"></span>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="deleteModal<%= habitationsList[cursor].id %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel<%= habitationsList[cursor].id %>"
+               aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="myModalLabel<%= habitationsList[cursor].id %>">Confirm Deletion</h4>
+                </div>
+                <div class="modal-body">
+                  <p>You are about to delete.</p>
+
+                  <p>Do you want to proceed?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                  <a href="/habitations/<%= habitationsList[cursor].id %>/delete">
+                    <button type="button" class="btn btn-danger">Delete</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <% }; %>
+      <ul class="pager">
+         <%  if(pageToPresent>1) { %>
+          <li><a href="/myHabs/<%= +pageToPresent-1 %>">Previous</a></li>
+         <% } %>
+         <%  if(hasMore) { %>
+          <li><a href="/myHabs/<%= +pageToPresent+1 %>">Next</a></li>
+         <% } %>
+     </ul>
+    </div>
+  </div>
+</div>
+
+<% include /layout/pageBottom %>

@@ -1,0 +1,39 @@
+<% include layout/pageTop %>
+
+<form role="form" action="/signin" method="POST">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="center-block">
+
+          <h3>Sign In</h3>
+
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+
+            <h4>Using third party accounts</h4>
+
+            <p>You may sign-in using Facebook or Google accounts</p>
+
+            <a href="/auth/facebook" class="btn btn-default btn-lg btn-block" role="button">Login with Facebook</a>
+            <a href="/auth/google" class="btn btn-default btn-lg btn-block" role="button">Login with Google</a>
+          </div>
+          <div class="col-md-5 col-md-offset-2">
+
+            <h4 class="header">Using your account</h4>
+
+            <input type="email" class="form-control input-lg" id="inputEmail" name="username" placeholder="Your email"
+                   style="margin-bottom: 0.2em">
+            <input type="password" class="form-control input-lg" id="inputPassword" name="password"
+                   placeholder="Password" style="margin-bottom: 0.2em">
+            <button class="btn btn-large btn-success btn-block btn-lg" type="submit">Sign In</button>
+            <p class="text-center"><a href="#">Forgot your password?</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<% include layout/pageBottom %>

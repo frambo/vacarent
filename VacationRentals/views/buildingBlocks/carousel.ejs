@@ -1,0 +1,36 @@
+<!-- Main carousel -->
+<link rel="stylesheet" href="/stylesheets/carousel.css">
+<div class="carousel slide" data-ride="carousel" id="home-carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <% for (var i = 0; i < carousel.length; i++) { %>
+    <li data-target="#home-carousel" data-slide-to="<%= i %>" class="<%= i == 0 ? 'active' : '' %>"></li>
+    <% } %>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <!-- % for (var i = 0; i < carousel.length; i++) { % -->
+    <% for (var i = 0; i < carousel.length; i++) { %>
+    <div class="item <%= i == 0 ? 'active' : '' %>">
+      <!-- img src="/images/carousel/< %= carousel[i] % >" alt="Carousel image"/ -->
+      <img src="<%= carousel[i]['image'] %>" alt="Carousel image"/>
+
+      <div class="carousel-caption">
+        <h2><%= carousel[i]['header'] %></h2>
+
+        <p><%= carousel[i]['body'] %></p>
+      </div>
+    </div>
+    <% } %>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#home-carousel" data-slide="prev"><span
+      class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#home-carousel" data-slide="next"><span
+      class="glyphicon glyphicon-chevron-right"></span></a>
+
+</div>
+<!-- .carousel -->

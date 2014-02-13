@@ -1,0 +1,101 @@
+<script>
+  var query;
+  var candidateResponse;
+
+  function showResult(str, _where) {
+    if (str == query) {
+      return;
+    }
+    query = str;
+    if (str.length == 0) {
+      document.getElementById("searchSuggestions").innerHTML = "";
+      document.getElementById("searchSuggestions").style.border = "0px";
+      return;
+    }
+    if (window.XMLHttpRequest) {
+      xmlhttp = new XMLHttpRequest();
+    }
+    else {
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200 && xmlhttp.responseText != candidateResponse) {
+        candidateResponse = xmlhttp.responseText;
+        document.getElementById("searchSuggestions").innerHTML = filterJson(xmlhttp.responseText);
+        document.getElementById("searchSuggestions").style.border = "1px solid #A5ACB2";
+      }
+    }
+    xmlhttp.open("GET", "searchSuggest?q=" + str + "&where=" + _where, true);
+    xmlhttp.send();
+  }
+
+  function filterJson(dataJson) {
+    var dataObj = JSON.parse(dataJson);
+    var returnStr = '<div class="g05-search">\n'
+      + ' <div class="container">\n'
+      + '  <div class="row">\n';
+    dataObj.forEach(function (item) {
+      var tmp = '   <div class="span4">'
+        + '    <div class="g05-search-well">\n'
+        + '     <article>\n'
+        + '      <p><a href="' + item.detailsPage + '"><img src="' + item.gallery.featuredPhotoThumbnail + '" width="85px" class="img-rounded g05-search-thumbnail"/></a></p>\n'
+        + '      <p class="lead" style="position:relative; top:0.1em; padding-bottom:0.1em;"><a href="' + item.detailsPage + '">' + item.name + '</a></p>\n'
+        + '      <p style="position:relative; top:-0.6em"><a href="' + '/search?location=' + item.location.local + '"><strong>' + item.location.local + '</strong></a></p>\n'
+        + '      <p class="g05-search-chars"><a href="' + '/search?weeklyFee=' + item.weeklyFee.toFixed(0) + '">Fare: ' + item.weeklyFee.toFixed(2) + ' €/week</a></p>\n'
+        + '      <p class="g05-search-chars"><a href="' + '/search?area=' + item.characteristics.area.toFixed(0) + '">Area: ' + item.characteristics.area.toFixed(0) + ' m<sup>2</sup></a></p>\n'
+        + '      <p class="g05-search-chars"><a href="' + '/search?capacity=' + item.characteristics.capacity.toFixed(0) + '">Capacity: ' + item.characteristics.capacity.toFixed(0) + ' persons</a></p>\n'
+        + '      <p class="g05-search-chars"><a href="' + '/search?bedrooms=' + item.characteristics.bedrooms.toFixed(0) + '">Bedrooms: ' + item.characteristics.bedrooms.toFixed(0) + '</a></p>\n'
+        + '      <p class="g05-search-smry">' + item.summary + '</p>\n'
+        + '     </article>\n'
+        + '    </div>'
+        + '   <div class="span8">'
+        + '   </div>';
+      returnStr += tmp;
+    });
+    returnStr += '  </div>'
+      + ' </div>'
+      + '</div>';
+    return returnStr;
+  }
+
+  function select(type) {
+    document.getElementById('searchBy').innerHTML = type + ' ' + '<span class="caret"></span>';
+    document.getElementById('_searchType').value = type;
+  }
+
+</script>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-3'>
+      <form class='navbar-form g05-search-form' role='search' action='/searchit' method='get'>
+        <div class='input-group g05-search-box' style='z-index: 80;'>
+          <div class='input-group-btn' style='z-index: 80;'>
+            <button id='searchBy' type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown'>Name
+              <span class='caret'></span></button>
+            <ul class='dropdown-menu'>
+              <li><a href='#' onclick='select("Name")'>Name</a></li>
+              <li><a href='#' onclick='select("Location")'>Location</a></li>
+              <li class='divider'></li>
+              <li><a href='#' onclick='select("Fare")'>Fare</a></li>
+              <li><a href='#' onclick='select("Capacity")'>Capacity</a></li>
+              <li><a href='#' onclick='select("Area")'>Area</a></li>
+            </ul>
+          </div>
+          <input id='_search' class='form-control' type='text' size='30' placeholder='Search...' role='form'
+                 name='lookFor' autofocus autocomplete='off' spellcheck='off'
+                 onkeyup='showResult(this.value, searchOn.value)'>
+          <input id='_searchType' type='text' name='searchOn' autocomplete='off' spellcheck='off' value='Name'
+                 type='hidden' class='sr-only'>
+
+          <div class='input-group-btn'>
+            <button class='btn btn-default' type='submit'><i class='glyphicon glyphicon-search'></i></button>
+          </div>
+        </div>
+        <div id='searchSuggestions'></div>
+      </form>
+    </div>
+    <div class='col-sm-8'>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<% var itemsPage = 5; %>
+<% var basePath = '/habitations/'; %>
+
+<% for (var item = 0; item < itemsPage && item < data.length; item++) { %>
+        <a href="/habitation/<%= data[item].id %>">
+            <h3 class="panel-title"><%= data[item].name %> / <%= data[item].location.local %></h3>
+        </a> <%= data[item].summary.substring(0,40) + "..." %>
+<% }; %>

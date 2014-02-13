@@ -1,0 +1,97 @@
+<% include layout/pageTop %>
+
+<!-- link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" -->
+<!-- link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css" -->
+<!-- link rel="stylesheet" href="/vendor/blueimp/css/bootstrap-image-gallery.min.css" -->
+
+<h2><%= habitation.name %></h2>
+
+<img src="/images/habitations/<%= id %>/<%= habitation.photos.featuredPhoto %>" alt="<%= habitation.name %>"
+     title="<%= habitation.name %>"/>
+
+<% include buildingBlocks/gallery %>
+
+<div id="links" style="margin-top: 0.3em; margin-bottom: 0.3em">
+  <% for (var i = 0; i < habitation.photos.album.length; i++) { %>
+  <a href="/images/habitations/<%= id %>/<%= habitation.photos.album[i] %>" title="<%= habitation.name %>"
+     data-gallery><img
+      src="/images/habitations/<%= id %>/thumbnails/<%= habitation.photos.album[i] %>" height="50"></a>
+  <% } %>
+</div>
+
+<div class="well">
+  <div class="">
+    <p><%- habitation.description %></p>
+  </div>
+</div>
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Weekly fee</td>
+    <td><%= habitation.weeklyFee %> €</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td><%= habitation.location.local %>
+      <button class="btn btn-primary btn-med" data-toggle="modal" data-target="#myModal">showMap
+      </button>
+      (<%= habitation.location.gps.latitude %>, <%= habitation.location.gps.longitude %>)
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+           aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Map</h4>
+            </div>
+            <div class="modal-body">
+              <div id="map-canvas" class="element" style="height:400px;"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </td>
+  </tr>
+  <tr>
+    <td>Capacity</td>
+    <td><%= habitation.characteristics.capacity %> persons</td>
+  </tr>
+  <tr>
+    <td>Area</td>
+    <td><%= habitation.characteristics.area %> m<sup>2</sup></td>
+  </tr>
+  <tr>
+    <td>Rooms</td>
+    <td><%= habitation.characteristics.rooms %></td>
+  </tr>
+  <tr>
+    <td>Bedrooms</td>
+    <td><%= habitation.characteristics.bedrooms %></td>
+  </tr>
+  <tr>
+    <td>Amenities</td>
+    <td><%= habitation.characteristics.amenities %></td>
+  </tr>
+  <tr>
+    <td>Available extras</td>
+    <td><%= habitation.characteristics.availableExtras %></td>
+  </tr>
+  <tr>
+    <td>Permissions</td>
+    <td><%= habitation.characteristics.permissions %></td>
+  </tr>
+  </tbody>
+</table>
+
+<% include layout/pageBottom %>
+<% include buildingBlocks/maps-showLocationOnMap %>
